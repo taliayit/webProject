@@ -60,7 +60,7 @@ namespace AutoLotto.Controllers
                 }
             }
 
-            return Ok("can't find it :O");
+            //return Ok("can't find it :O");
 
         }
 
