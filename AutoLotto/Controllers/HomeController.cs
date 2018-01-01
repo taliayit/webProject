@@ -10,6 +10,8 @@ namespace AutoLotto.Controllers
     {
         public ActionResult Index()
         {
+            if (User.Identity.IsAuthenticated)
+                return RedirectToAction("About");
             return View();
         }
 
