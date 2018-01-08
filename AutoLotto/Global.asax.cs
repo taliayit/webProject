@@ -21,6 +21,25 @@ namespace AutoLotto
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             Database.SetInitializer(new DropCreateDatabaseIfModelChanges<ApplicationDbContext>());
+
+            using (ApplicationDbContext db = new ApplicationDbContext())
+            {
+
+                db.Workouts.RemoveRange(db.Workouts);
+                db.SaveChanges();
+
+                for(int i = 1; i <= 15; i++)
+                {
+                    db.Workouts.Add(new Workout()
+                    {
+                        Id = i,
+                        ImageName = i + ".jpg",
+                        Description = "" + i
+                    });
+                }       
+                db.SaveChanges();
+            }
+
         }
     }
 }

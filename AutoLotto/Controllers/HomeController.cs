@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AutoLotto.Models;
 
 namespace AutoLotto.Controllers
 {
@@ -11,7 +12,7 @@ namespace AutoLotto.Controllers
         public ActionResult Index()
         {
             if (User.Identity.IsAuthenticated)
-                return RedirectToAction("About");
+                return RedirectToAction("Contact");
             return View();
         }
 
@@ -25,7 +26,10 @@ namespace AutoLotto.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            using (ApplicationDbContext db = new ApplicationDbContext())
+            {
+                ViewBag.Workouts = db.Workouts.ToList();
+            }
             return View();
         }
     }

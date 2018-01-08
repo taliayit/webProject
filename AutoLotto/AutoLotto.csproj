@@ -222,6 +222,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\DbModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -230,6 +231,32 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\fullBody\1.jpg" />
+    <Content Include="Content\images\fullBody\2.jpg" />
+    <Content Include="Content\images\fullBody\3.jpg" />
+    <Content Include="Content\images\fullBody\4.jpg" />
+    <Content Include="Content\images\fullBody\5.jpg" />
+    <Content Include="Content\images\fullBody\6.jpg" />
+    <Content Include="Content\images\fullBody\7.jpg" />
+    <Content Include="Content\images\fullBody\8.jpg" />
+    <Content Include="Content\images\fullBody\9.jpg" />
+    <Content Include="Content\images\fullBody\10.jpg" />
+    <Content Include="Content\images\fullBody\11.jpg" />
+    <Content Include="Content\images\fullBody\12.jpg" />
+    <Content Include="Content\images\fullBody\13.jpg" />
+    <Content Include="Content\images\fullBody\14.jpg" />
+    <Content Include="Content\images\fullBody\15.jpg" />
+    <Content Include="Content\images\1.png" />
+    <Content Include="Content\images\22.png" />
+    <Content Include="Content\images\3.png" />
+    <Content Include="Content\images\4.png" />
+    <Content Include="Content\images\5.png" />
+    <Content Include="Content\images\55.png" />
+    <Content Include="Content\images\6.png" />
+    <Content Include="Content\images\7.png" />
+    <Content Include="Content\images\8.png" />
+    <Content Include="Content\images\9.png" />
+    <Content Include="Content\images\body.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

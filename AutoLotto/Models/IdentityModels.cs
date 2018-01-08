@@ -30,10 +30,12 @@ namespace AutoLotto.Models
         public string DetailsJson { get; set; }
     }
 
+
+
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-
         public DbSet<FbDetails> fbDetails { get; set; }
+        public DbSet<Workout> Workouts  { get; set; }
 
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)

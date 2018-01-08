@@ -1,266 +1,359 @@
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\ApplicationInsights.config
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\csc.exe
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CSharp.Core.targets
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\Microsoft.VisualBasic.Core.targets
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\System.Collections.Immutable.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\System.Reflection.Metadata.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\vbc.exe
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\VBCSCompiler.exe
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\roslyn\VBCSCompiler.exe.config
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\AutoLotto.dll.config
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\AutoLotto.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\AutoLotto.pdb
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Antlr3.Runtime.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\EntityFramework.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\EntityFramework.SqlServer.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AI.Agent.Intercept.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AI.DependencyCollector.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AI.PerfCounterCollector.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AI.ServerTelemetryChannel.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AI.Web.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AI.WindowsServer.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.ApplicationInsights.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Core.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Owin.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Host.SystemWeb.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Cookies.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Facebook.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Google.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.OAuth.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Twitter.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Web.Infrastructure.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Newtonsoft.Json.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Owin.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Helpers.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Mvc.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Optimization.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Razor.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.WebPages.Deployment.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.WebPages.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.WebPages.Razor.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\WebGrease.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AI.DependencyCollector.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AI.ServerTelemetryChannel.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AI.Web.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AI.WindowsServer.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.ApplicationInsights.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Helpers.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Mvc.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Optimization.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Razor.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.WebPages.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.WebPages.Deployment.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.WebPages.Razor.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Antlr3.Runtime.pdb
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Newtonsoft.Json.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\EntityFramework.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\EntityFramework.SqlServer.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Core.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Owin.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Host.SystemWeb.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Facebook.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Cookies.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.OAuth.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Google.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Twitter.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\obj\Debug\AutoLotto.csprojResolveAssemblyReference.cache
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\obj\Debug\AutoLotto.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\obj\Debug\AutoLotto.pdb
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Net.Http.Formatting.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Http.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Http.WebHost.dll
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Net.Http.Formatting.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Http.xml
-c:\users\admin\documents\visual studio 2015\Projects\AutoLotto\AutoLotto\bin\System.Web.Http.WebHost.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\ApplicationInsights.config
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\csc.exe
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\vbc.exe
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\VBCSCompiler.exe
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\AutoLotto.dll.config
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\AutoLotto.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\AutoLotto.pdb
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Antlr3.Runtime.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\EntityFramework.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\EntityFramework.SqlServer.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AI.Web.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.ApplicationInsights.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Newtonsoft.Json.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Owin.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Net.Http.Formatting.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Helpers.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Http.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Http.WebHost.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Mvc.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Optimization.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Razor.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.WebPages.Deployment.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.WebPages.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.WebPages.Razor.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\WebGrease.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AI.Web.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.ApplicationInsights.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Net.Http.Formatting.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Http.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Http.WebHost.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Helpers.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Mvc.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Optimization.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.Razor.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.WebPages.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.WebPages.Deployment.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\System.Web.WebPages.Razor.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Antlr3.Runtime.pdb
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Newtonsoft.Json.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\EntityFramework.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\EntityFramework.SqlServer.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\obj\Debug\AutoLotto.csprojResolveAssemblyReference.cache
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\obj\Debug\AutoLotto.csproj.CoreCompileInputs.cache
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\obj\Debug\AutoLotto.dll
-C:\Users\taliayit\Downloads\AutoLotto\AutoLotto\obj\Debug\AutoLotto.pdb
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\ApplicationInsights.config
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\csc.exe
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\vbc.exe
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\VBCSCompiler.exe
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\AutoLotto.dll.config
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\AutoLotto.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\AutoLotto.pdb
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Antlr3.Runtime.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\EntityFramework.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\EntityFramework.SqlServer.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AI.Web.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.ApplicationInsights.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Newtonsoft.Json.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Owin.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Net.Http.Formatting.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Helpers.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Http.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Http.WebHost.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Mvc.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Optimization.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Razor.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.WebPages.Deployment.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.WebPages.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.WebPages.Razor.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\WebGrease.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AI.Web.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.ApplicationInsights.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Net.Http.Formatting.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Http.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Http.WebHost.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Helpers.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Mvc.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Optimization.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.Razor.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.WebPages.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.WebPages.Deployment.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\System.Web.WebPages.Razor.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Antlr3.Runtime.pdb
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Newtonsoft.Json.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\EntityFramework.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\EntityFramework.SqlServer.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\obj\Debug\AutoLotto.csprojResolveAssemblyReference.cache
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\obj\Debug\AutoLotto.csproj.CoreCompileInputs.cache
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\obj\Debug\AutoLotto.dll
-C:\Users\tyizchak\Downloads\AutoLotto\AutoLotto\AutoLotto\obj\Debug\AutoLotto.pdb
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/ApplicationInsights.config
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/csc.exe
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CodeAnalysis.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CSharp.Core.targets
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/Microsoft.VisualBasic.Core.targets
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/System.Collections.Immutable.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/System.Reflection.Metadata.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/vbc.exe
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/VBCSCompiler.exe
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/roslyn/VBCSCompiler.exe.config
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/AutoLotto.dll.config
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/AutoLotto.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/AutoLotto.pdb
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Antlr3.Runtime.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/EntityFramework.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/EntityFramework.SqlServer.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AI.Agent.Intercept.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AI.DependencyCollector.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AI.PerfCounterCollector.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AI.ServerTelemetryChannel.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AI.Web.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AI.WindowsServer.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.ApplicationInsights.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Core.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Owin.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Host.SystemWeb.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Cookies.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Facebook.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Google.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.MicrosoftAccount.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.OAuth.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Twitter.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Web.Infrastructure.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Newtonsoft.Json.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Owin.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Helpers.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Mvc.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Optimization.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Razor.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.WebPages.Deployment.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.WebPages.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.WebPages.Razor.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/WebGrease.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AI.DependencyCollector.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AI.ServerTelemetryChannel.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AI.Web.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AI.WindowsServer.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.ApplicationInsights.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Helpers.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Mvc.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Optimization.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Razor.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.WebPages.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.WebPages.Deployment.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.WebPages.Razor.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Antlr3.Runtime.pdb
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Newtonsoft.Json.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/EntityFramework.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/EntityFramework.SqlServer.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Core.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Owin.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Host.SystemWeb.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Facebook.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Cookies.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.OAuth.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Google.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Twitter.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.MicrosoftAccount.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/obj/Debug/AutoLotto.csprojResolveAssemblyReference.cache
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/obj/Debug/AutoLotto.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/obj/Debug/AutoLotto.pdb
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Net.Http.Formatting.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Http.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Http.WebHost.dll
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Net.Http.Formatting.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Http.xml
+c:/users/admin/documents/visual studio 2015/Projects/AutoLotto/AutoLotto/bin/System.Web.Http.WebHost.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/ApplicationInsights.config
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/csc.exe
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CodeAnalysis.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CSharp.Core.targets
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/Microsoft.VisualBasic.Core.targets
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/System.Collections.Immutable.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/System.Reflection.Metadata.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/vbc.exe
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/VBCSCompiler.exe
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/roslyn/VBCSCompiler.exe.config
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/AutoLotto.dll.config
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/AutoLotto.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/AutoLotto.pdb
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Antlr3.Runtime.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/EntityFramework.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/EntityFramework.SqlServer.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AI.Agent.Intercept.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AI.DependencyCollector.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AI.PerfCounterCollector.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AI.ServerTelemetryChannel.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AI.Web.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AI.WindowsServer.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.ApplicationInsights.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Core.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Owin.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Host.SystemWeb.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Cookies.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Facebook.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Google.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.MicrosoftAccount.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.OAuth.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Twitter.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Newtonsoft.Json.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Owin.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Net.Http.Formatting.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Helpers.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Http.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Http.WebHost.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Mvc.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Optimization.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Razor.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.WebPages.Deployment.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.WebPages.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.WebPages.Razor.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/WebGrease.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AI.DependencyCollector.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AI.ServerTelemetryChannel.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AI.Web.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AI.WindowsServer.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.ApplicationInsights.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Facebook.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Net.Http.Formatting.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Http.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Http.WebHost.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Helpers.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Mvc.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Optimization.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.Razor.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.WebPages.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.WebPages.Deployment.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/System.Web.WebPages.Razor.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Antlr3.Runtime.pdb
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Newtonsoft.Json.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/EntityFramework.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/EntityFramework.SqlServer.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Core.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Owin.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Host.SystemWeb.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Cookies.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.OAuth.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Google.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Twitter.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.MicrosoftAccount.xml
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/obj/Debug/AutoLotto.csprojResolveAssemblyReference.cache
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/obj/Debug/AutoLotto.csproj.CoreCompileInputs.cache
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/obj/Debug/AutoLotto.dll
+C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/obj/Debug/AutoLotto.pdb
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/ApplicationInsights.config
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/csc.exe
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CodeAnalysis.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/Microsoft.CSharp.Core.targets
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/Microsoft.VisualBasic.Core.targets
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/System.Collections.Immutable.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/System.Reflection.Metadata.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/vbc.exe
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/VBCSCompiler.exe
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/roslyn/VBCSCompiler.exe.config
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/AutoLotto.dll.config
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/AutoLotto.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/AutoLotto.pdb
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Antlr3.Runtime.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/EntityFramework.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/EntityFramework.SqlServer.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AI.Agent.Intercept.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AI.DependencyCollector.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AI.PerfCounterCollector.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AI.ServerTelemetryChannel.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AI.Web.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AI.WindowsServer.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.ApplicationInsights.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Core.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Owin.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Host.SystemWeb.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Cookies.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Facebook.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Google.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.MicrosoftAccount.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.OAuth.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Twitter.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Newtonsoft.Json.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Owin.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Net.Http.Formatting.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Helpers.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Http.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Http.WebHost.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Mvc.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Optimization.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Razor.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.WebPages.Deployment.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.WebPages.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.WebPages.Razor.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/WebGrease.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AI.DependencyCollector.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AI.ServerTelemetryChannel.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AI.Web.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AI.WindowsServer.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.ApplicationInsights.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Facebook.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Net.Http.Formatting.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Http.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Http.WebHost.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Helpers.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Mvc.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Optimization.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.Razor.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.WebPages.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.WebPages.Deployment.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/System.Web.WebPages.Razor.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Antlr3.Runtime.pdb
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Newtonsoft.Json.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/EntityFramework.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/EntityFramework.SqlServer.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Core.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.Owin.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Host.SystemWeb.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Cookies.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.OAuth.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Google.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.Twitter.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/bin/Microsoft.Owin.Security.MicrosoftAccount.xml
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/obj/Debug/AutoLotto.csprojResolveAssemblyReference.cache
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/obj/Debug/AutoLotto.csproj.CoreCompileInputs.cache
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/obj/Debug/AutoLotto.dll
+C:/Users/tyizchak/Downloads/AutoLotto/AutoLotto/AutoLotto/obj/Debug/AutoLotto.pdb
+/Users/Ivan/Documents/College/finalProject/webProject/AutoLotto/obj/Debug/AutoLotto.csprojResolveAssemblyReference.cache
+/Users/Ivan/Documents/College/finalProject/webProject/AutoLotto/obj/Debug/AutoLotto.csproj.CoreCompileInputs.cache
+/Users/Ivan/Documents/College/finalProject/webProject/AutoLotto/obj/Debug/AutoLotto.dll
+/Users/Ivan/Documents/College/finalProject/webProject/AutoLotto/obj/Debug/AutoLotto.pdb
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\ApplicationInsights.config
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\csc.exe
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\vbc.exe
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\AutoLotto.dll.config
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\AutoLotto.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\AutoLotto.pdb
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Antlr3.Runtime.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\EntityFramework.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AI.Agent.Intercept.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AI.DependencyCollector.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AI.PerfCounterCollector.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AI.ServerTelemetryChannel.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AI.Web.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AI.WindowsServer.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.ApplicationInsights.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AspNet.Identity.Core.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AspNet.Identity.Owin.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.Cookies.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.Facebook.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.Google.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.OAuth.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.Twitter.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Web.Infrastructure.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Newtonsoft.Json.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Owin.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Net.Http.Formatting.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Helpers.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Http.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Http.WebHost.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Mvc.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Optimization.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Razor.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.WebPages.Deployment.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.WebPages.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.WebPages.Razor.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\WebGrease.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AI.DependencyCollector.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AI.ServerTelemetryChannel.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AI.Web.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AI.WindowsServer.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.ApplicationInsights.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.Facebook.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Net.Http.Formatting.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Http.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Http.WebHost.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Helpers.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Mvc.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Optimization.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.Razor.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.WebPages.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.WebPages.Deployment.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\System.Web.WebPages.Razor.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Antlr3.Runtime.pdb
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Newtonsoft.Json.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\EntityFramework.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AspNet.Identity.Core.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AspNet.Identity.Owin.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.Cookies.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.OAuth.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.Google.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.Twitter.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.dll
+\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.pdb
