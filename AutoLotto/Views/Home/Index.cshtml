@@ -1,66 +1,65 @@
 @model AutoLotto.Models.ExternalLoginListViewModel
 @using Microsoft.Owin.Security
-
 @{
     ViewBag.Title = "Home Page";
 }
 
 
-
-
 <div class="body"></div>
 <div class="grad"></div>
+<img src="@(" ../Content/images/gifs/" + (new Random()).Next(1,9) + ".gif")" style="width: 10%; position: relative; margin: 100px auto; display: block;" />
 <div class="header">
+
+
     <div>Lets<span>Connect</span></div>
 </div>
-<br>
 <div class="login">
     <!--
     <input type="text" placeholder="username" name="user"><br>
     <input type="password" placeholder="password" name="password"><br>
     -->
+    <br />
     <input type="button" value="continue with Facebook" id="fb">
-    <input type="button" value="Sign in with Google">
+    <!-- <input type="button" value="Sign in with Google"> -->
+
     @{
         var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
 
         using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = (string)null }))
         {
-            @Html.AntiForgeryToken()
+
             <div id="socialLoginList">
+
                 <p>
                     @foreach (AuthenticationDescription p in loginProviders)
                     {
-                        <button type="submit" class="btn btn-primary hidden" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType" title="Log in using your @p.Caption account">@p.AuthenticationType</button>
+                        <button type="submit" class="btn btn-primary hidden" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType" title="Log in using your @p.Caption account"></button>
                     }
                 </p>
             </div>
         }
     }
+
+
 </div>
-
 @section scripts{
-
     <script>
         $(document).ready(function () {
             $("#fb").click(function () {
                 $("#Facebook").click();
             });
-           /* $.ajax({
-                url: "/api/getUserLoginDetails",
-                type: "get",
-                success: function (data) {
-                    let details = JSON.parse(data.DetailsJson);
-                    console.log(details);
-                    $("#details").html("<strong>your details are:</strong><br/>name: " + details.Name +
-                        "<br/>email: " + details.UserDetails.email +
-                        "<br/>AccessToken: <small>" + details.AccessToken + "</small>");
-                }
-            });*/
+            /* $.ajax({
+                 url: "/api/getUserLoginDetails",
+                 type: "get",
+                 success: function (data) {
+                     let details = JSON.parse(data.DetailsJson);
+                     console.log(details);
+                     $("#details").html("<strong>your details are:</strong><br/>name: " + details.Name +
+                         "<br/>email: " + details.UserDetails.email +
+                         "<br/>AccessToken: <small>" + details.AccessToken + "</small>");
+                 }
+             });*/
         });
     </script>
-
 }
-
-
 

@@ -76,9 +76,11 @@ namespace AutoLotto
             options.SignInAsAuthenticationType = DefaultAuthenticationTypes.ExternalCookie;
             app.UseFacebookAuthentication(options);
 
+            /*
             app.UseGoogleAuthentication(
                  clientId: "607301369685-h4g7bq7jstcrniogl0erfgitucrf9ug6.apps.googleusercontent.com",
                  clientSecret: "sC1VmUset66kuMH5EZTlTD0m");
+                 */
         }
 
         public class FacebookBackChannelHandler : HttpClientHandler
