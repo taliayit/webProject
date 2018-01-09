@@ -19,7 +19,7 @@
     <input type="password" placeholder="password" name="password"><br>
     -->
     <br />
-    <input type="button" value="continue with Facebook" id="fb">
+    <input type="button" value="continue with Facebook" id="fb" style="margin-top:18px;">
     <!-- <input type="button" value="Sign in with Google"> -->
 
     @{
@@ -27,13 +27,13 @@
 
         using (Html.BeginForm("ExternalLogin", "Account", new { ReturnUrl = (string)null }))
         {
-
+            @Html.AntiForgeryToken()
             <div id="socialLoginList">
 
                 <p>
                     @foreach (AuthenticationDescription p in loginProviders)
                     {
-                        <button type="submit" class="btn btn-primary hidden" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType" title="Log in using your @p.Caption account"></button>
+                    <button type="submit" class="btn btn-primary hidden" id="@p.AuthenticationType" name="provider" value="@p.AuthenticationType" title="Log in using your @p.Caption account">@p.AuthenticationType</button>
                     }
                 </p>
             </div>
