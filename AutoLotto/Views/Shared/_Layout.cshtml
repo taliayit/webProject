@@ -33,12 +33,17 @@
         @RenderBody()
         <hr />
         <!--<footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Talia crazy Application</p>
         </footer>-->
     </div>
 
+    @{
+        Html.RenderPartial("ModalView");
+    }
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+    <script src="../Scripts/modalScript.js"></script>
 </body>
 </html>

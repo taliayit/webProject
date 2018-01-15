@@ -16,10 +16,21 @@
     @{int i = 1;}
     @foreach (var or in ViewBag.Workouts)
     {
-        <div class="col-md-4 "  oid="@or.Id" mode="0" oids="@or.Id" id="tr@(i)">
+        <div class="col-md-4 workout" oid="@or.Id" mode="0" oids="@or.Id" id="tr@(i)" data-time="1000">
             <img src="@("../Content/images/fullBody/" + or.ImageName)" class="card"/>
         </div>
 
         i++;
     }
 </div>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $(".workout").click(function () {
+                toggleWorkoutModal_Layout({ time: $(this).attr("data-time") });
+            });
+        });
+
+    </script>
+}
