@@ -4,9 +4,9 @@
 
 <style>
     img {
-        width:100%;
+        width: 100%;
         height: 100%;
-        max-height:500px;
+        max-height: 500px;
         margin-bottom: 10px;
     }
 </style>
@@ -16,8 +16,8 @@
     @{int i = 1;}
     @foreach (var or in ViewBag.Workouts)
     {
-        <div class="col-md-4 workout" oid="@or.Id" mode="0" oids="@or.Id" id="tr@(i)" data-time="1000">
-            <img src="@("../Content/images/fullBody/" + or.ImageName)" class="card"/>
+        <div class="col-md-4 workout" oid="@or.Id" mode="0" oids="@or.Id" id="tr@(i)" name="@or.ImageName" data-time="@or.Time">
+            <img src="@("../Content/images/fullBody/" + or.ImageName)" class="card" />
         </div>
 
         i++;
@@ -27,9 +27,34 @@
 @section scripts{
     <script>
         $(document).ready(function () {
+            var minutesLabel = document.getElementById("minutes");
+            var secondsLabel = document.getElementById("seconds");
+            var totalSeconds = 0;
+            var time;
+            var timer;
             $(".workout").click(function () {
-                toggleWorkoutModal_Layout({ time: $(this).attr("data-time") });
+                time = parseInt($(this).attr("data-time"));
+                console.log(time);
+                toggleWorkoutModal_Layout({ time: $(this).attr("data-time"), name: $(this).attr("name") });
+                timer = setInterval(setTime, 1000);
             });
+            function setTime() {
+                ++totalSeconds;
+                if (totalSeconds == time) {
+                    clearInterval(timer);
+                }
+                secondsLabel.innerHTML = pad(totalSeconds % 60);
+                minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+            }
+
+            function pad(val) {
+                var valString = val + "";
+                if (valString.length < 2) {
+                    return "0" + valString;
+                } else {
+                    return valString;
+                }
+            }
         });
 
     </script>

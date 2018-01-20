@@ -31,11 +31,12 @@ namespace AutoLotto.Models
     }
 
 
-
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public DbSet<FbDetails> fbDetails { get; set; }
         public DbSet<Workout> Workouts  { get; set; }
+        public DbSet<Exercise> Exercises { get; set; }
+        public DbSet<Muscle> Muscles { get; set; }
 
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)

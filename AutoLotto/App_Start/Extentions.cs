@@ -20,6 +20,15 @@ namespace AutoLotto.App_Start
             catch (Exception) { return 0; }
         }
 
+        public static int AsInt(this string s)
+        {
+            try
+            {
+                return int.Parse(s);
+            }
+            catch (Exception) { return 0; }
+        }
+
         public static string GetNameFromFB(this IIdentity i)
         {
             using (ApplicationDbContext db = new ApplicationDbContext())
