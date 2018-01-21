@@ -21,13 +21,15 @@ namespace AutoLotto
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/respond.js",
+                      "~/Scripts/TimeCircles.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/loginStylesheet.css",
                       "~/Content/homeStyle.css",
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/TimeCircles.css"));
         }
     }
 }

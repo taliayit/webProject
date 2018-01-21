@@ -29,6 +29,11 @@ namespace AutoLotto.Controllers
             using (ApplicationDbContext db = new ApplicationDbContext())
             {
                 ViewBag.Workouts = db.Workouts.ToList();
+                //ViewBag.Workouts = db.Workouts.Select(x => new {
+                //    x.Id,
+                //    x.ImageName,
+                //    Exercises = string.Join(",", x.Exercises.ToList().ToArray<int>())
+                //}).ToList();
             }
             return View();
         }

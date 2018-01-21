@@ -13,6 +13,7 @@
 
 <h1>Quick start with a random full body workout</h1>
 <div id="quickProgram" class="row">
+
     @{int i = 1;}
     @foreach (var or in ViewBag.Workouts)
     {
@@ -36,7 +37,7 @@
                 time = parseInt($(this).attr("data-time"));
                 console.log(time);
                 toggleWorkoutModal_Layout({ time: $(this).attr("data-time"), name: $(this).attr("name") });
-                timer = setInterval(setTime, 1000);
+               // timer = setInterval(setTime, 1000);
             });
             function setTime() {
                 ++totalSeconds;
