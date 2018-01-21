@@ -14,6 +14,7 @@ namespace AutoLotto.Models
             Exercises = new HashSet<Exercise>();
         }
 
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         [Key]
         public int Id { get; set; }
         public string ImageName { get; set; }
@@ -31,6 +32,7 @@ namespace AutoLotto.Models
             Workouts = new HashSet<Workout>();
         }
 
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         [Key]
         public int Id { get; set; }
         public string ImagePath { get; set; }
@@ -49,6 +51,7 @@ namespace AutoLotto.Models
             Exercises = new HashSet<Exercise>();
         }
 
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }

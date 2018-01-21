@@ -4,13 +4,7 @@
 
 <style>
     #bodymuscles {
-        width: 100%;
-        height: 50%;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+
     }
 
     area {
@@ -19,8 +13,8 @@
     img {
     }
 </style>
-
-<div id="bodymuscles">
+<div class="row">
+<div class="col-md-4" id="bodymuscles">
     <img style="position: absolute;" id="body-img" src="~/Content/Images/body.png" usemap="#map" />
     <img style="position: absolute;" id="a1-img" src="~/Content/Images/1.png" class="hidden" usemap="#map" />
     <img style="position: absolute;" id="a2-img" src="~/Content/Images/22.png" class="hidden" usemap="#map" />
@@ -50,6 +44,8 @@
         <area data-img-id="a9-img" target="" alt="larms" title="arms" href="" coords="227,693,182,773,173,859,147,943,213,850,198,988,260,856,298,738,299,706,232,787,238,713" shape="poly">
         <area data-img-id="a9-img" target="" alt="rarms" title="arms" href="" coords="716,709,768,780,772,718,782,695,819,758,830,850,869,950,799,867,811,981,754,868,710,736" shape="poly">
     </map>
+</div>
+<div class="col-md-8"></div>
 </div>
 @section scripts{
     <script>
