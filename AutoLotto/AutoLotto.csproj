@@ -232,6 +232,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\flexslider.css" />
     <Content Include="Content\images\fullBody\1.jpg" />
     <Content Include="Content\images\fullBody\2.jpg" />
     <Content Include="Content\images\fullBody\3.jpg" />
@@ -266,6 +267,8 @@
     <Content Include="Content\images\gifs\6.gif" />
     <Content Include="Content\images\gifs\7.gif" />
     <Content Include="Content\images\gifs\8.gif" />
+    <Content Include="Content\jquery.flipster.min.css" />
+    <Content Include="Content\sliding-carousel.css" />
     <Content Include="Content\TimeCircles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -285,6 +288,11 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.7.min.js" />
+    <Content Include="Scripts\jquery-slidingCarousel.js" />
+    <Content Include="Scripts\jquery.flexslider.js" />
+    <Content Include="Scripts\jquery.flipster.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />

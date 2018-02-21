@@ -22,14 +22,21 @@ namespace AutoLotto
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js",
-                      "~/Scripts/TimeCircles.js"));
+                      "~/Scripts/TimeCircles.js",
+                      "~/Scripts/jquery-1.7.min.js",
+                      "~/Scripts/jquery.flipster.min.js",
+                      "~/Scripts/jquery.flexslider.js",
+                      "~/Scripts/jquery-slidingCarousel.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/loginStylesheet.css",
                       "~/Content/homeStyle.css",
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
-                      "~/Content/TimeCircles.css"));
+                      "~/Content/TimeCircles.css",
+                      "~/Content/jquery.flipster.min.css",
+                      "~/Content/flexslider.css",
+                      "~/Content/sliding-carousel.css"));
         }
     }
 }
