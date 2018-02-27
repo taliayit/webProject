@@ -14,13 +14,8 @@
     <div>Lets<span>Connect</span></div>
 </div>
 <div class="login">
-    <!--
-    <input type="text" placeholder="username" name="user"><br>
-    <input type="password" placeholder="password" name="password"><br>
-    -->
     <br />
     <input type="button" value="continue with Facebook" id="fb" style="margin-top:18px;">
-    <!-- <input type="button" value="Sign in with Google"> -->
 
     @{
         var loginProviders = Context.GetOwinContext().Authentication.GetExternalAuthenticationTypes();
@@ -48,17 +43,6 @@
             $("#fb").click(function () {
                 $("#Facebook").click();
             });
-            /* $.ajax({
-                 url: "/api/getUserLoginDetails",
-                 type: "get",
-                 success: function (data) {
-                     let details = JSON.parse(data.DetailsJson);
-                     console.log(details);
-                     $("#details").html("<strong>your details are:</strong><br/>name: " + details.Name +
-                         "<br/>email: " + details.UserDetails.email +
-                         "<br/>AccessToken: <small>" + details.AccessToken + "</small>");
-                 }
-             });*/
         });
     </script>
 }

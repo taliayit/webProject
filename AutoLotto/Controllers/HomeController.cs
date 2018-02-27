@@ -12,20 +12,20 @@ namespace AutoLotto.Controllers
         public ActionResult Index()
         {
             if (User.Identity.IsAuthenticated)
-                return RedirectToAction("Contact");
+                return RedirectToAction("QuickPicks");
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Customized()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your custom training page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult QuickPicks()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your QuickPick page.";
             using (ApplicationDbContext db = new ApplicationDbContext())
             {
                 ViewBag.Workouts = db.Workouts.ToList();

@@ -264,7 +264,6 @@ C:/Users/taliayit/Downloads/AutoLotto/AutoLotto/obj/Debug/AutoLotto.pdb
 \\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.Google.xml
 \\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.Twitter.xml
 \\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.csprojResolveAssemblyReference.cache
 \\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.csproj.CoreCompileInputs.cache
 \\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.dll
 \\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.pdb
