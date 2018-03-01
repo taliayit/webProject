@@ -1,0 +1,136 @@
+﻿@{
+    ViewBag.Title = "Customized";
+}
+
+<style>
+
+    .bodyPart{
+        max-width:154%;
+    }
+
+    .difficultyLogo {
+        display: inline-block;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: 'Special Elite';
+    }
+
+    #difficultyEasy {
+        width: 50%;
+        margin-top: 88%;
+    }
+    #difficultyMedium {
+        width: 80%;
+        margin-top: 64%;
+    }
+    #difficultyLarge {
+        width: 120%;
+        margin-top: 30px;
+    }
+</style>
+<div class="row">
+    <div class="col-md-4" id="bodymuscles">
+        <img style="position: absolute;" id="body-img" src="~/Content/Images/miniBody.png" usemap="#map" />
+
+        <img style="position: absolute;" id="a1-img" src="~/Content/Images/1.png" class="hidden bodyPart" usemap="#map" />
+        <img style="position: absolute;" id="a2-img" src="~/Content/Images/2.png" class="hidden bodyPart" usemap="#map" />
+        <img style="position: absolute;" id="a3-img" src="~/Content/Images/3.png" class="hidden bodyPart" usemap="#map" />
+        <img style="position: absolute;" id="a4-img" src="~/Content/Images/4.png" class="hidden bodyPart" usemap="#map" />
+        <img style="position: absolute;" id="a5-img" src="~/Content/Images/55.png" class="hidden bodyPart" usemap="#map" />
+        <img style="position: absolute;" id="a6-img" src="~/Content/Images/6.png" class="hidden bodyPart" usemap="#map" />
+        <img style="position: absolute;" id="a7-img" src="~/Content/Images/7.png" class="hidden bodyPart" usemap="#map" />
+        <img style="position: absolute;" id="a8-img" src="~/Content/Images/8.png" class="hidden bodyPart" usemap="#map" />
+        <img style="position: absolute;" id="a9-img" src="~/Content/Images/9.png" class="hidden bodyPart" usemap="#map" />
+
+        <img style="z-index:0; position: absolute;" id="a1-img0" src="~/Content/Images/1.png" class="hidden bodyPart" usemap="#map" />
+        <img style="z-index:0; position: absolute;" id="a2-img0" src="~/Content/Images/2.png" class="hidden bodyPart" usemap="#map" />
+        <img style="z-index:0; position: absolute;" id="a3-img0" src="~/Content/Images/3.png" class="hidden bodyPart" usemap="#map" />
+        <img style="z-index:0; position: absolute;" id="a4-img0" src="~/Content/Images/4.png" class="hidden bodyPart" usemap="#map" />
+        <img style="z-index:0; position: absolute;" id="a5-img0" src="~/Content/Images/55.png" class="hidden bodyPart" usemap="#map" />
+        <img style="z-index:0; position: absolute;" id="a6-img0" src="~/Content/Images/6.png" class="hidden bodyPart" usemap="#map" />
+        <img style="z-index:0; position: absolute;" id="a7-img0" src="~/Content/Images/7.png" class="hidden bodyPart" usemap="#map" />
+        <img style="z-index:0; position: absolute;" id="a8-img0" src="~/Content/Images/8.png" class="hidden bodyPart" usemap="#map" />
+        <img style="z-index:0; position: absolute;" id="a9-img0" src="~/Content/Images/9.png" class="hidden bodyPart" usemap="#map" />
+        <map name="map">
+            <!-- <area data-img-id="a1-img" id="A1" target="" alt="chest" title="chest" href="" coords="386,443,412,429,477,449,536,449,600,431,625,452,667,543,609,583,555,590,526,577,506,604,479,574,442,593,388,575,343,546" shape="poly"> -->
+            <!--
+                <area data-img-id="a1-img" id="A1" target="" alt="chest" title="chest" href="" coords="118,124,144,131,157,130,177,123,184,128,199,161,169,173,155,169,147,176,140,171,128,174,98,159" shape="poly">
+                <area data-img-id="a2-img" target="" alt="rshoulder" title="rshoulder" href="" coords="625,441,650,420,706,431,750,478,757,557,672,528" shape="poly">
+                <area data-img-id="a2-img" target="" alt="lshoulder" title="lshoulder" href="" coords="357,416,383,441,339,530,252,557,256,485,299,434" shape="poly">
+                <area data-img-id="a3-img" target="" alt="rabs" title="rabs" href="" coords="578,597,656,574,654,716,641,762,650,856,602,935,547,975,589,863,585,811,603,751" shape="poly">
+                <area data-img-id="a3-img" target="" alt="labs" title="labs" href="" coords="359,570,430,604,408,749,424,814,424,870,462,975,404,934,354,841,368,774,352,669" shape="poly">
+                <area data-img-id="a4-img" target="" alt="abs" title="abs" href="" coords="437,604,484,588,506,615,526,588,574,608,591,742,573,811,583,827,565,921,535,977,504,990,473,979,442,914,430,825,435,807,417,742" shape="poly">
+                <area data-img-id="a5-img" target="" alt="ruparms" title="rarms" href="" coords="328,528,256,550,220,604,223,662,241,695,241,752,306,684,335,615" shape="poly">
+                <area data-img-id="a5-img" target="" alt="luparms" title="larms" href="" coords="679,511,744,533,762,547,788,598,788,645,770,674,766,735,704,667,675,602" shape="poly">
+                <area data-img-id="a6-img" target="" alt="ltrapez" title="ltrapez" href="" coords="435,384,365,414,386,432,412,422,480,441" shape="poly">
+                <area data-img-id="a6-img" target="" alt="rtrapez" title="rtrapez" href="" coords="522,441,573,384,641,416,620,432,598,422" shape="poly">
+                <area data-img-id="a7-img" target="" alt="ltights" title="ltights" href="" coords="312,1038,357,867,413,957,489,1010,456,1229,451,1353,430,1436,417,1310,355,1404,351,1323,308,1158" shape="poly">
+                <area data-img-id="a7-img" target="" alt="rtights" title="rtights" href="" coords="520,1010,591,961,654,874,694,1020,701,1147,661,1324,658,1404,593,1312,582,1444,555,1332,551,1211" shape="poly">
+                <area data-img-id="a8-img" target="" alt="llegs" title="llegs" href="" coords="408,1333,341,1449,325,1561,348,1719,413,1807,399,1704,437,1581" shape="poly">
+                <area data-img-id="a8-img" target="" alt="rlegs" title="rlegs" href="" coords="600,1333,574,1576,612,1715,598,1806,658,1721,687,1601,674,1462" shape="poly">
+                <area data-img-id="a9-img" target="" alt="larms" title="arms" href="" coords="227,693,182,773,173,859,147,943,213,850,198,988,260,856,298,738,299,706,232,787,238,713" shape="poly">
+                <area data-img-id="a9-img" target="" alt="rarms" title="arms" href="" coords="716,709,768,780,772,718,782,695,819,758,830,850,869,950,799,867,811,981,754,868,710,736" shape="poly">
+            -->
+            <area data-img-id="a1-img" id="A1" target="" alt="chest" title="chest" href="" coords="118,124,144,131,157,130,177,123,184,128,199,161,169,173,155,169,147,176,140,171,128,174,98,159" shape="poly">
+            <area data-img-id="a2-img" target="" alt="rshoulder" title="rshoulder" href="" coords="104,122,113,130,101,156,74,166,74,144,84,128" shape="poly">
+            <area data-img-id="a2-img" target="" alt="lshoulder" title="lshoulder" href="" coords="183,128,191,121,208,125,221,140,223,166,195,156" shape="poly">
+            <area data-img-id="a3-img" target="" alt="rabs" title="rabs" href="" coords="104,165,128,174,123,198,123,205,120,220,126,236,125,248,135,284,117,273,105,252,109,225,104,220,103,190" shape="poly">
+            <area data-img-id="a3-img" target="" alt="labs" title="labs" href="" coords="169,173,192,166,195,187,189,223,193,250,163,287,168,264,173,239,169,237,177,223,174,203" shape="poly">
+            <area data-img-id="a4-img" target="" alt="abs" title="abs" href="" coords="148,180,155,170,168,176,173,202,175,220,168,236,171,240,167,266,148,291,129,270,125,241,129,236,121,221,123,201,127,176,142,170" shape="poly">
+            <area data-img-id="a5-img" target="" alt="ruparms" title="rarms" href="" coords="93,158,95,166,83,208,71,226,69,209,65,199,63,184,71,167" shape="poly">
+            <area data-img-id="a5-img" target="" alt="luparms" title="larms" href="" coords="199,158,213,208,225,226,227,207,231,199,232,183,227,168" shape="poly">
+            <area data-img-id="a6-img" target="" alt="ltrapez" title="ltrapez" href="" coords="167,110,189,120,183,127,176,124,153,129" shape="poly">
+            <area data-img-id="a6-img" target="" alt="rtrapez" title="rtrapez" href="" coords="129,111,142,130,122,124,113,126,105,120" shape="poly">
+            <area data-img-id="a7-img" target="" alt="ltights" title="ltights" href="" coords="155,293,165,286,185,267,191,255,201,280,207,320,207,335,195,386,193,412,177,392,173,403,173,423,162,403,162,374,163,356,157,332" shape="poly">
+            <area data-img-id="a7-img" target="" alt="rtights" title="rtights" href="" coords="104,254,118,275,143,293,143,319,135,354,135,387,126,423,121,389,105,411,103,385,89,338,91,299" shape="poly">
+            <area data-img-id="a8-img" target="" alt="llegs" title="llegs" href="" coords="176,389,195,418,202,442,201,470,197,493,191,508,175,528,178,506,175,489,167,467,168,451,173,434" shape="poly">
+            <area data-img-id="a8-img" target="" alt="rlegs" title="rlegs" href="" coords="121,390,125,424,125,435,129,457,127,468,117,504,123,530,101,505,95,466,95,439,101,417" shape="poly">
+            <area data-img-id="a9-img" target="" alt="larms" title="arms" href="" coords="229,203,240,220,243,233,243,243,255,280,235,254,238,291,220,253,213,235,211,223,207,217,208,208,225,225" shape="poly">
+            <area data-img-id="a9-img" target="" alt="rarms" title="arms" href="" coords="87,207,90,212,85,224,83,231,59,288,61,252,40,278,51,243,55,224,65,205,71,226" shape="poly">
+        </map>
+    </div>
+
+    <div class="col-md-4" id="bodymuscles">
+        <!--nothing here - made for keeping space from body map-->
+    </div>
+
+    <div class="col-md-4" id="bodymuscles">
+        <div class="row">
+            <h1>choose difficulty</h1>
+            <div class="col-sm-4">
+                <img id="difficultyEasy" src="~/Content/Images/difficultyLogo.PNG" class="difficultyLogo" />
+            </div>
+            <div class="col-sm-4">
+                <img id="difficultyMedium" src="~/Content/Images/difficultyLogo.PNG" class="difficultyLogo" />
+            </div>
+            <div class="col-sm-4">
+                <img id="difficultyLarge" src="~/Content/Images/difficultyLogo.PNG" class="difficultyLogo" />
+            </div>
+        </div>
+    </div>
+    @section scripts{
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Special+Elite" />
+        <script>
+            $(document).ready(function () {
+                $('map > area')
+                    .mouseover(function () {
+                        let imgId = $(this).attr("data-img-id");
+                        $("#" + imgId).removeClass("hidden");
+                        $("#" + imgId).css({ 'opacity': 0.3 });
+                        $("#" + imgId + 0).css({ 'opacity': 0.3 });
+                    }).mouseout(function () {
+                        let imgId = $(this).attr("data-img-id");
+                        $("#" + imgId).addClass("hidden");
+                        $("#" + imgId + 0).css({ 'opacity': 1 });
+                    }).click(function (e) {
+                        e.preventDefault();
+                        //$(this).unbind('mouseout');
+                        let imgId = $(this).attr("data-img-id");
+                        $("#" + imgId + '0').toggleClass("hidden");
+                        console.log("egegs");
+                    });
+            });
+        </script>
+    }
