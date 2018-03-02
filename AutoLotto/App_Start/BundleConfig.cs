@@ -26,7 +26,10 @@ namespace AutoLotto
                       "~/Scripts/jquery-1.7.min.js",
                       "~/Scripts/jquery.flipster.min.js",
                       "~/Scripts/jquery.flexslider.js",
-                      "~/Scripts/jquery-slidingCarousel.js"));
+                      "~/Scripts/jquery-slidingCarousel.js",
+                      "~/Scripts/jquery.gsap.min.js",
+                      "~/Scripts/TweenMax.min.js"
+                      ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/loginStylesheet.css",

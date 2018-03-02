@@ -284,6 +284,7 @@
     <Content Include="App_Data\exercises.csv" />
     <Content Include="package.json" />
     <Content Include="App_Data\workouts.csv" />
+    <Content Include="fonts\se.woff2" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

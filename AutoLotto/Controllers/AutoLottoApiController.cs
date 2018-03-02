@@ -64,5 +64,22 @@ namespace AutoLotto.Controllers
 
         }
 
+        [HttpPost]
+        [Route("api/setDataForUser")]
+        public IHttpActionResult setDataForUser([FromBody] customChoice data)
+        {
+            using (ApplicationDbContext db = new ApplicationDbContext())
+            {
+                return Ok();
+            }
+        }
+
+    }
+
+    public class customChoice
+    {
+        public int time { get; set; }
+        public string diff { get; set; }
+        public string[] areas { get; set; }
     }
 }
