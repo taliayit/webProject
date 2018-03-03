@@ -51,132 +51,42 @@
         margin-left: 12px;
     }
 
-
-
-
-
-    // Base Colors $shade-10: #2c3e50 !default; $shade-1: #d7dcdf !default; $shade-0: #fff !default; $teal: #1abc9c !default; // Reset * {
-        &, &:before, &:after
-
-    {
-        box-sizing: border-box;
+    #container {
+        position: absolute;
+        width: 285px;
+        height: 218.7px;
+        margin-top: -224px;
+        margin-left: 53px;
     }
 
-    }
-
-
-    .range-slider {
-        
-    }
-
-
-    // Range Slider 
-    $range-width: 100% !default; 
-    $range-handle-color: #2c3e50 !default !default; 
-    $range-handle-color-hover: #1abc9c !default; 
-    $range-handle-size: 20px !default; 
-    $range-track-color: #d7dcdf !default !default; 
-    $range-track-height: 10px !default; 
-    $range-label-color: #2c3e50 !default; 
-    $range-label-width: 60px !default; 
-    
-    .range-slider {
-        width: 100%;
-    }
-
-    .range-slider__range {
-        -webkit-appearance: none;
-        width: 300px;
-        height: 10px;
-        border-radius: 5px;
-        background: #d7dcdf;
-        outline: none;
-        padding: 7px;
-        margin-top: 10px;
-
-        // Range Handle 
-
-        &::-webkit-slider-thumb{
-            appearance: none;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background: #2c3e50;
-            cursor: pointer;
-            transition: background .15s ease-in-out;
-            
-            &:hover{
-                background: #1abc9c;
-            }
-
-        }
-
-    &:active::-webkit-slider-thumb {
-        background: #1abc9c;
-    }
-
-    &::-moz-range-thumb {
-        width: 20px;
-        height: 20px;
-        border: 0;
-        border-radius: 50%;
-        background: #2c3e50;
-        cursor: pointer;
-        transition: background .15s ease-in-out;
-        
-        &:hover{
-            background: #1abc9c;
-        }
-
-    }
-
-    &:active::-moz-range-thumb {
-        background: #1abc9c;
-    }
-
-    }
-
-
-
-    .range-slider__value {
-        display: inline-block;
-        position: relative;
-        width: 71px;
-        color: #fff;
-        line-height: 20px;
+    #dial-value, #info {
+        color: #ecf0f1;
+        font-size: 56pt;
+        font-family: Oswald, sans-serif;
         text-align: center;
-        border-radius: 3px;
-        background: #2c3e50;
-        padding: 4px 6px;
-        margin-left: 34px;
-        bottom: 3px;
-
-        &:after {
-            position: absolute;
-            top: 8px;
-            left: -7px;
-            width: 0;
-            height: 0;
-            border-top: 7px solid transparent;
-            border-right: 7px solid #2c3e50;
-            border-bottom: 7px solid transparent;
-            content: '';
-        }
     }
 
-    #send {
-        width: 108%;
-        padding: 18px;
-        margin-top: 27px;
-        margin-left: -14px;
+    #dial-value {
+        font-size: 54pt;
+        margin-top: 149px;
     }
-        #send[disabled] {
-            background-color: #990000;
-            border-color: #990000;
-        }
+
+    #info {
+        font-size: 31pt;
+        margin-top: -239px;
+        font-family: 'Special Elite';
+    }
+
+    svg {
+        margin-left: 54px;
+    }
+
+    #go {
+        text-align: center;
+        margin-left: 50%;
+        display: block;
+    }
 </style>
-
-
 
 <div class="row">
     <div class="col-md-4" id="bodymuscles">
@@ -202,7 +112,7 @@
         <img style="z-index:0; position: absolute;" id="a8-img0" src="~/Content/Images/8.png" class="hidden bodyPart area" usemap="#map" />
         <img style="z-index:0; position: absolute;" id="a9-img0" src="~/Content/Images/9.png" class="hidden bodyPart area" usemap="#map" />
         <map name="map">
-
+            
             <area data-img-id="a1-img" id="A1" target="" alt="chest" title="chest" href="" coords="118,124,144,131,157,130,177,123,184,128,199,161,169,173,155,169,147,176,140,171,128,174,98,159" shape="poly">
             <area data-img-id="a2-img" target="" alt="rshoulder" title="shoulders" href="" coords="104,122,113,130,101,156,74,166,74,144,84,128" shape="poly">
             <area data-img-id="a2-img" target="" alt="lshoulder" title="shoulders" href="" coords="183,128,191,121,208,125,221,140,223,166,195,156" shape="poly">
@@ -263,7 +173,6 @@
             <h1>training time</h1>
 
             <div class="col col-6">
-                <!--
                 <select id="time" class="form-control">
                     <option value="10">10</option>
                     <option value="15">15</option>
@@ -275,18 +184,10 @@
                     <option value="80">80</option>
                     <option value="90">90</option>
                 </select>
-                -->
-
-                <div class="range-slider">
-                    <input class="range-slider__range" type="range" value="10" min="0" max="90">
-                    <span id="time" class="range-slider__value">0</span>
-                </div>
-
-
             </div>
         </div>
 
-        <button id="send" class="btn btn-success"  disabled>Complete customization to begin training</button>
+        <button id="send" class="btn btn-success" style="margin:auto auto; width:150px;" disabled>Let's Train!</button>
 
     </div>
 </div>
@@ -295,10 +196,9 @@
 
 @section scripts {
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/utils/Draggable.min.js" type="module"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/utils/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ThrowPropsPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="module"></script>
     <script>
 
         $(document).ready(function () {
@@ -318,6 +218,8 @@
                     let imgId = $(this).attr("data-img-id");
                     $("#" + imgId + '0').toggleClass("hidden");
                     enableSend();
+                    console.log('clicked area');
+
                 });
 
             $('.difficultyLogo')
@@ -335,18 +237,21 @@
                     $(this).attr('data-active', 'true');
                     $(this).css({ 'opacity': 1 });
                     enableSend();
+                    console.log('clicked diff logo');
+
+
                 });
 
 
 
             $("#send").click(function () {
-                let time = $("#time").text();
+                let time = $("#time").val();
                 let diff = $(".difficultyLogo[data-active='true'").attr("id");
 
                 let areas = [];
                 let imgs = $('#bodymuscles').find(".area");
                 $.each(imgs, function () {
-                    if ($(this).hasClass("hidden")) return;
+                    if ($(this).hasClass("hidden"))  return;
                     areas.push($(this).attr('id'));
                 });
 
@@ -358,14 +263,14 @@
 
                 console.log(customChoice);
 
-                $.ajax({
-                    url: "/api/setDataForUser",
-                    contentType: "application/json",
-                    type: "POST",
-                    data: JSON.stringify(customChoice),
-                }).done(function (res) {
-                    console.log('res', res);
-                });
+                    $.ajax({
+                        url: "/api/setDataForUser",
+                        contentType: "application/json",
+                        type: "POST",
+                        data: JSON.stringify(customChoice),
+                    }).done(function (res) {
+                        console.log('res', res);
+                    });
             });
 
         });
@@ -374,10 +279,14 @@
             let imgs = $('#bodymuscles').find(".area");
             let flag = false;
             $.each(imgs, function () {
+                console.log($(this));
                 if (!$(this).hasClass("hidden")) {
+                    console.log('has not hidden');
                     flag = true;;
                 }
             });
+            
+            //console.log('no area');
 
             return flag;
         }
@@ -388,41 +297,18 @@
             $.each(diffs, function () {
                 if ($(this).attr('data-active') == 'true') flag = true;
             });
+            //console.log('no dif');
+
             return flag;
         }
 
         enableSend = function () {
+            console.log('enableSend()');
 
-            if (thereAreChosenAreas() && thereIsChosenDifficulty()) {
+            if (thereAreChosenAreas()  && thereIsChosenDifficulty() ) {
                 $('#send').prop('disabled', false);
-                $('#send').text('Pump It!');
             }
-            else {
-                $('#send').prop('disabled', true);
-                $('#send').text('Complete customization to begin training');
-
-            }
+            else $('#send').prop('disabled', true);
         }
-
-
-        var rangeSlider = function () {
-            var slider = $('.range-slider'),
-                range = $('.range-slider__range'),
-                value = $('.range-slider__value');
-
-            slider.each(function () {
-
-                value.each(function () {
-                    var value = $(this).prev().attr('value');
-                    $(this).html(value);
-                });
-
-                range.on('input', function () {
-                    $(this).next(value).html(this.value);
-                });
-            });
-        };
-
-        rangeSlider();
     </script>
 }

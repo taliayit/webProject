@@ -149,9 +149,8 @@
         background: #2c3e50;
         padding: 4px 6px;
         margin-left: 34px;
-        bottom: 3px;
-
-        &:after {
+        bottom: 10px;
+        &:after{
             position: absolute;
             top: 8px;
             left: -7px;
@@ -172,7 +171,6 @@
     }
         #send[disabled] {
             background-color: #990000;
-            border-color: #990000;
         }
 </style>
 
@@ -278,15 +276,15 @@
                 -->
 
                 <div class="range-slider">
-                    <input class="range-slider__range" type="range" value="10" min="0" max="90">
-                    <span id="time" class="range-slider__value">0</span>
+                    <input class="range-slider__range" type="range" value="100" min="0" max="500">
+                    <span class="range-slider__value">0</span>
                 </div>
 
 
             </div>
         </div>
 
-        <button id="send" class="btn btn-success"  disabled>Complete customization to begin training</button>
+        <button id="send" class="btn btn-success" style="margin:auto auto; width:90%;" disabled>Complete customization to begin training</button>
 
     </div>
 </div>
@@ -340,7 +338,7 @@
 
 
             $("#send").click(function () {
-                let time = $("#time").text();
+                let time = $("#time").val();
                 let diff = $(".difficultyLogo[data-active='true'").attr("id");
 
                 let areas = [];
@@ -395,7 +393,7 @@
 
             if (thereAreChosenAreas() && thereIsChosenDifficulty()) {
                 $('#send').prop('disabled', false);
-                $('#send').text('Pump It!');
+                $('#send').text('Let\'s Train!!!');
             }
             else {
                 $('#send').prop('disabled', true);
