@@ -269,7 +269,33 @@
     <Content Include="Content\images\gifs\7.gif" />
     <Content Include="Content\images\gifs\8.gif" />
     <Content Include="Content\images\miniBody.png" />
-    <Content Include="Content\images\workouts\1.jpg" />
+    <Content Include="Content\images\workouts\1.png" />
+    <Content Include="Content\images\workouts\10.png" />
+    <Content Include="Content\images\workouts\11.png" />
+    <Content Include="Content\images\workouts\12.png" />
+    <Content Include="Content\images\workouts\13.png" />
+    <Content Include="Content\images\workouts\14.png" />
+    <Content Include="Content\images\workouts\15.png" />
+    <Content Include="Content\images\workouts\16.png" />
+    <Content Include="Content\images\workouts\17.png" />
+    <Content Include="Content\images\workouts\18.png" />
+    <Content Include="Content\images\workouts\19.png" />
+    <Content Include="Content\images\workouts\2.png" />
+    <Content Include="Content\images\workouts\20.png" />
+    <Content Include="Content\images\workouts\21.png" />
+    <Content Include="Content\images\workouts\22.png" />
+    <Content Include="Content\images\workouts\23.png" />
+    <Content Include="Content\images\workouts\24.png" />
+    <Content Include="Content\images\workouts\25.png" />
+    <Content Include="Content\images\workouts\26.png" />
+    <Content Include="Content\images\workouts\27.png" />
+    <Content Include="Content\images\workouts\3.png" />
+    <Content Include="Content\images\workouts\4.png" />
+    <Content Include="Content\images\workouts\5.png" />
+    <Content Include="Content\images\workouts\6.png" />
+    <Content Include="Content\images\workouts\7.png" />
+    <Content Include="Content\images\workouts\8.png" />
+    <Content Include="Content\images\workouts\9.png" />
     <Content Include="Content\jquery.flipster.min.css" />
     <Content Include="Content\sliding-carousel.css" />
     <Content Include="Content\TimeCircles.css" />
@@ -284,7 +310,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="App_Data\exercises.csv" />
     <Content Include="package.json" />
     <Content Include="App_Data\workouts.csv" />
     <Content Include="fonts\se.woff2" />
