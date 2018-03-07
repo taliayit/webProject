@@ -28,8 +28,8 @@
     @{int i = 1;}
     @foreach (var or in ViewBag.Workouts)
     {
-        <div class="col-md-4 workout" oid="@or.Id" mode="0" oids="@or.Id" id="tr@(i)" name="@or.ImageName" data-time="@or.Time">
-            <img src="@("../Content/images/fullBody/" + or.ImageName)" class="card" />
+        <div class="col-md-4 workout" oid="@or.Id" mode="0" oids="@or.Id" id="tr@(i)" video-url="@or.VideoUrl">
+            <img src="@("../Content/images/workouts/" + or.ImageName)" class="card" />
         </div>
 
         i++;
@@ -40,7 +40,7 @@
     <script>
         $(document).ready(function () {
             $(".workout").click(function () {
-                toggleWorkoutModal_Layout({ time: $(this).attr("data-time"), name: $(this).attr("name") });
+                toggleWorkoutModal_Layout({ url: $(this).attr("video-url") });
             });
         });
 

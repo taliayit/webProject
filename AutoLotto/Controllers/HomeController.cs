@@ -18,9 +18,9 @@ namespace AutoLotto.Controllers
 
         public ActionResult Customized()
         {
-            ViewBag.Message = "Your custom training page.";
-
-            return View();
+            if (User.Identity.IsAuthenticated)
+                return View();
+            return RedirectToAction("");
         }
 
         public ActionResult QuickPicks()

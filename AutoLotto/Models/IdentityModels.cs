@@ -35,7 +35,7 @@ namespace AutoLotto.Models
     {
         public DbSet<FbDetails> fbDetails { get; set; }
         public DbSet<Workout> Workouts  { get; set; }
-        public DbSet<Exercise> Exercises { get; set; }
+        //public DbSet<Exercise> Exercises { get; set; }
         public DbSet<Muscle> Muscles { get; set; }
 
         public ApplicationDbContext()

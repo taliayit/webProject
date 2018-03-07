@@ -11,7 +11,7 @@ namespace AutoLotto.Models
     {
         public Workout()
         {
-            Exercises = new HashSet<Exercise>();
+            Muscles = new HashSet<Muscle>();
         }
 
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
@@ -20,11 +20,13 @@ namespace AutoLotto.Models
         public string ImageName { get; set; }
         public string Description { get; set; }
         public int Time { get; set; }
-        public virtual ICollection<Exercise> Exercises { get; set; }
+        public int Difficulty { get; set; }
+        public string VideoUrl { get; set; }
+        public virtual ICollection<Muscle> Muscles { get; set; }
 
     }
 
-    public class Exercise
+    /*public class Exercise
     {
         public Exercise()
         {
@@ -42,19 +44,19 @@ namespace AutoLotto.Models
         public string Description { get; set; }
         public virtual ICollection<Muscle> Muscels { get; set; }
         public virtual ICollection<Workout> Workouts { get; set; }
-    }
+    }*/
 
     public class Muscle
     {
         public Muscle()
         {
-            Exercises = new HashSet<Exercise>();
+            Workouts = new HashSet<Workout>();
         }
-
+        
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
-        public virtual ICollection<Exercise> Exercises { get; set; }
+        public virtual ICollection<Workout> Workouts { get; set; }
     }
 }

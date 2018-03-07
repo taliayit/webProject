@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "QuickPicks";
+}
+
+<style>
+    img {
+        width: 100%;
+        height: 100%;
+        max-height: 500px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-family: 'Special Elite';
+        text-align: center;
+        font-size: 90px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 600;
+        line-height: 26.4px;
+        padding: 40px 0;
+    }
+</style>
+
+<h1>QUICK PICKS</h1>
+<div id="quickProgram" class="row">
+
+    @{int i = 1;}
+    @foreach (var or in ViewBag.Workouts)
+    {
+        <div class="col-md-4 workout" oid="@or.Id" mode="0" oids="@or.Id" id="tr@(i)" video-url="@or.VideoUrl">
+            <img src="@("../Content/images/fullBody/" + or.ImageName)" class="card" />
+        </div>
+
+        i++;
+    }
+</div>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            $(".workout").click(function () {
+                toggleWorkoutModal_Layout({ url: $(this).attr("video-url") });
+            });
+        });
+
+    </script>
+}
