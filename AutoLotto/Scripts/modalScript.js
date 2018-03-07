@@ -18,10 +18,11 @@
     //$("#layout_modal_title").text(options.time + " haha" + options.name);
     console.log(options);
 
-    /*
+   
     var imgpath = "../Content/images/exercises/" + options.name;
     $("#curr_exercise").attr("src", imgpath);
     $("#workoutModal").modal("toggle");
+     /*
     setTimeout(function () {
         //$("#workoutModal").find('.my-flipster').flipster({
         //});
@@ -38,7 +39,7 @@
         //    shadow: true
         //});
     }, 300);
-
+     
     setTimeout(function () {
         $("#workoutModal").find(".modalStopwatch").TimeCircles({
             start: true, count_past_zero: false,

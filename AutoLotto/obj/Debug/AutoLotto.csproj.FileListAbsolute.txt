@@ -444,4 +444,3 @@ C:\Users\Admin\Documents\GitHub\webProject\AutoLotto\obj\Debug\AutoLotto.pdb
 \\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.csproj.CoreCompileInputs.cache
 \\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.dll
 \\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.pdb
-\\Mac\Home\Documents\College\finalProject\webProject\AutoLotto\obj\Debug\AutoLotto.csprojResolveAssemblyReference.cache
