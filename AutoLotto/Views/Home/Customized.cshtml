@@ -54,32 +54,30 @@
 
 
 
+    /*
+        // Base Colors $shade-10: #2c3e50 !default; $shade-1: #d7dcdf !default; $shade-0: #fff !default; $teal: #1abc9c !default; // Reset * {
+          */ 
+        &, &:before, &:after{
+            box-sizing: border-box;
+        }
 
-    // Base Colors $shade-10: #2c3e50 !default; $shade-1: #d7dcdf !default; $shade-0: #fff !default; $teal: #1abc9c !default; // Reset * {
-        &, &:before, &:after
-
-    {
-        box-sizing: border-box;
-    }
-
-    }
-
-
-    .range-slider {
+        //}
         
+    /*
+    .range-slider {
     }
-
-
-    // Range Slider 
-    $range-width: 100% !default; 
-    $range-handle-color: #2c3e50 !default !default; 
-    $range-handle-color-hover: #1abc9c !default; 
-    $range-handle-size: 20px !default; 
-    $range-track-color: #d7dcdf !default !default; 
-    $range-track-height: 10px !default; 
-    $range-label-color: #2c3e50 !default; 
-    $range-label-width: 60px !default; 
-    
+    */
+    /*
+        // Range Slider
+        $range-width: 100% !default;
+        $range-handle-color: #2c3e50 !default !default;
+        $range-handle-color-hover: #1abc9c !default;
+        $range-handle-size: 20px !default;
+        $range-track-color: #d7dcdf !default !default;
+        $range-track-height: 10px !default;
+        $range-label-color: #2c3e50 !default;
+        $range-label-width: 60px !default;
+        */
     .range-slider {
         width: 100%;
     }
@@ -93,47 +91,47 @@
         outline: none;
         padding: 7px;
         margin-top: 10px;
+        
+            // Range Handle
 
-        // Range Handle 
+            &::-webkit-slider-thumb{
+                appearance: none;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background: #2c3e50;
+                cursor: pointer;
+                transition: background .15s ease-in-out;
 
-        &::-webkit-slider-thumb{
-            appearance: none;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background: #2c3e50;
-            cursor: pointer;
-            transition: background .15s ease-in-out;
-            
-            &:hover{
+                &:hover{
+                    background: #1abc9c;
+                }
+    
+    }
+    
+            &:active::-webkit-slider-thumb {
                 background: #1abc9c;
             }
 
-        }
+            &::-moz-range-thumb {
+                width: 20px;
+                height: 20px;
+                border: 0;
+                border-radius: 50%;
+                background: #2c3e50;
+                cursor: pointer;
+                transition: background .15s ease-in-out;
 
-    &:active::-webkit-slider-thumb {
-        background: #1abc9c;
-    }
+                &:hover{
+                    background: #1abc9c;
+                }
 
-    &::-moz-range-thumb {
-        width: 20px;
-        height: 20px;
-        border: 0;
-        border-radius: 50%;
-        background: #2c3e50;
-        cursor: pointer;
-        transition: background .15s ease-in-out;
-        
-        &:hover{
-            background: #1abc9c;
-        }
+            }
 
-    }
-
-    &:active::-moz-range-thumb {
-        background: #1abc9c;
-    }
-
+            &:active::-moz-range-thumb {
+                background: #1abc9c;
+            }
+            
     }
 
 
@@ -150,19 +148,20 @@
         padding: 4px 6px;
         margin-left: 34px;
         bottom: 3px;
-
+       
         &:after {
-            position: absolute;
-            top: 8px;
-            left: -7px;
-            width: 0;
-            height: 0;
-            border-top: 7px solid transparent;
-            border-right: 7px solid #2c3e50;
-            border-bottom: 7px solid transparent;
-            content: '';
-        }
+        position: absolute;
+        top: 8px;
+        left: -7px;
+        width: 0;
+        height: 0;
+        border-top: 7px solid transparent;
+        border-right: 7px solid #2c3e50;
+        border-bottom: 7px solid transparent;
+        content: '';
     }
+}
+
 
     #send {
         width: 108%;
@@ -170,9 +169,11 @@
         margin-top: 27px;
         margin-left: -14px;
     }
+
         #send[disabled] {
             background-color: #990000;
             border-color: #990000;
+        }
         }
 </style>
 
@@ -201,6 +202,7 @@
         <img style="z-index:0; position: absolute;" id="a7-img0" src="~/Content/Images/7.png" class="hidden bodyPart area" usemap="#map" />
         <img style="z-index:0; position: absolute;" id="a8-img0" src="~/Content/Images/8.png" class="hidden bodyPart area" usemap="#map" />
         <img style="z-index:0; position: absolute;" id="a9-img0" src="~/Content/Images/9.png" class="hidden bodyPart area" usemap="#map" />
+        
         <map name="map">
 
             <area data-img-id="a1-img" id="A1" target="" alt="chest" title="chest" href="" coords="118,124,144,131,157,130,177,123,184,128,199,161,169,173,155,169,147,176,140,171,128,174,98,159" shape="poly">
@@ -366,6 +368,7 @@
                 }).done(function (res) {
                     console.log('res', res);
                 });
+
             });
 
         });

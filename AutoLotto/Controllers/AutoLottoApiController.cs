@@ -70,6 +70,7 @@ namespace AutoLotto.Controllers
         {
             using (ApplicationDbContext db = new ApplicationDbContext())
             {
+
                 return Ok();
             }
         }

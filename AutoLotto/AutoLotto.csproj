@@ -234,6 +234,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\flexslider.css" />
     <Content Include="Content\images\fullBody\1.jpg" />
+    <Content Include="Content\images\fullBody\16.jpg" />
     <Content Include="Content\images\fullBody\2.jpg" />
     <Content Include="Content\images\fullBody\3.jpg" />
     <Content Include="Content\images\fullBody\4.jpg" />
@@ -267,6 +268,7 @@
     <Content Include="Content\images\gifs\6.gif" />
     <Content Include="Content\images\gifs\7.gif" />
     <Content Include="Content\images\gifs\8.gif" />
+    <Content Include="Content\images\miniBody.png" />
     <Content Include="Content\jquery.flipster.min.css" />
     <Content Include="Content\sliding-carousel.css" />
     <Content Include="Content\TimeCircles.css" />

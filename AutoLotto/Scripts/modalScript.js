@@ -1,4 +1,19 @@
 ﻿function toggleWorkoutModal_Layout(options) {
+    /* Get iframe src attribute value i.e. YouTube video url
+    and store it in a variable */
+    var url = $("#exVideo").attr('src');
+
+    /* Assign empty url value to the iframe src attribute when
+    modal hide, which stop the video playing */
+    $("#workoutModal").on('hide.bs.modal', function () {
+        $("#exVideo").attr('src', '');
+    });
+
+    /* Assign the initially stored url back to the iframe src
+    attribute when modal is displayed again */
+    $("#workoutModal").on('show.bs.modal', function () {
+        $("#exVideo").attr('src', url);
+    });
     //$("#layout_modal_title").text(options.time + " haha" + options.name);
     console.log(options);
     var imgpath = "../Content/images/exercises/" + options.name;
