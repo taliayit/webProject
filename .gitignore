@@ -1,8 +1,5 @@
 
 *.cache
-AutoLotto/obj/Debug/AutoLotto.csproj.FileListAbsolute.txt
-AutoLotto/obj/Debug/AutoLotto.csproj.FileListAbsolute.txt
-AutoLotto/obj/Debug/AutoLotto.csprojResolveAssemblyReference.cache
 .vs/AutoLotto/v15/sqlite3/storage.ide-wal
 .vs/AutoLotto/v15/Server/sqlite3/storage.ide-wal
 AutoLotto.userprefs
@@ -35,7 +32,6 @@ AutoLotto.userprefs
 *.dll
 *.pdb
 *.cache
-AutoLotto/obj/Debug/AutoLotto.csproj.FileListAbsolute.txt
 *.cache
 *.dll
 *.pdb
