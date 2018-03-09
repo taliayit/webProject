@@ -59,4 +59,12 @@ namespace AutoLotto.Models
         public string Name { get; set; }
         public virtual ICollection<Workout> Workouts { get; set; }
     }
+
+
+    public class UserDataObject
+    {
+        public int time { get; set; }
+        public string diff { get; set; }
+        public string[] areas { get; set; }
+    }
 }

@@ -6,7 +6,24 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '141863326584652',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v2.12'
+            });
+        };
 
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -19,7 +36,7 @@
                 </button>
                 @Html.ActionLink("weTrain", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse" >
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Customized", "Customized", "Home")</li>
@@ -43,5 +60,34 @@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
     <script src="../Scripts/modalScript.js"></script>
+    <script>
+        var videoGlobalUrl = "";
+        $(document).ready(function () {
+            $(document).on('click', ".share", function (e) {
+                e.preventDefault();
+                console.log(videoGlobalUrl.substring(videoGlobalUrl.lastIndexOf("/")))
+                FB.ui(
+                    {
+                        method: 'feed',
+                        name: 'testing',
+                        link: videoGlobalUrl,
+                        picture: 'http://img.youtube.com/vi/1CE6W5BubQo/0.jpg',
+                        //caption: '',
+                        description: '',
+                        source: "https://youtube.googleapis.com/v" + videoGlobalUrl.substring(videoGlobalUrl.lastIndexOf("/"))
+                    },
+                    // callback
+                    function (response) {
+                        //if (response && !response.error_message) {
+                        //    alert('Posting completed.');
+                        //} else {
+                        //    alert('Error while posting.');
+                        //}
+                    }
+                );
+            });
+        });
+        
+    </script>
 </body>
 </html>
