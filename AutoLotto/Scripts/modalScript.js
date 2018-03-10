@@ -16,13 +16,15 @@
     attribute when modal is displayed again */
     $("#workoutModal").on('show.bs.modal', function () {
         $("#exVideo").attr('src', url);
-        var ytApiKey = "AIzaSyCJr4RljbMoH8kBGt3srhzxNCI56vsUA78"; //my google id
-        videoId = url.split("/")[videoId.length - 1];
+        var ytApiKey = "AIzaSyCJr4RljbMoH8kBGt3srhzxNCI56vsUA78";
+        var videoId = url.split("/");
+        videoId = videoId[videoId.length - 1];
 
         $.get("https://www.googleapis.com/youtube/v3/videos?part=snippet&id=" + videoId + "&key=" + ytApiKey, function (data) {
             $("#modal-title").text(data.items[0].snippet.title);
         });
     });
+    console.log(options);
 
 
     var imgpath = "../Content/images/exercises/" + options.name;
