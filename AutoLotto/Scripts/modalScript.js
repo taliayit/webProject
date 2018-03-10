@@ -9,15 +9,20 @@
     modal hide, which stop the video playing */
     $("#workoutModal").on('hide.bs.modal', function () {
         $("#exVideo").attr('src', '');
+        $("#modal-title").text('');
     });
 
     /* Assign the initially stored url back to the iframe src
     attribute when modal is displayed again */
     $("#workoutModal").on('show.bs.modal', function () {
         $("#exVideo").attr('src', url);
+        var ytApiKey = "AIzaSyCJr4RljbMoH8kBGt3srhzxNCI56vsUA78"; //my google id
+        videoId = url.split("/")[videoId.length - 1];
+
+        $.get("https://www.googleapis.com/youtube/v3/videos?part=snippet&id=" + videoId + "&key=" + ytApiKey, function (data) {
+            $("#modal-title").text(data.items[0].snippet.title);
+        });
     });
-    //$("#layout_modal_title").text(options.time + " haha" + options.name);
-    console.log(options);
 
 
     var imgpath = "../Content/images/exercises/" + options.name;

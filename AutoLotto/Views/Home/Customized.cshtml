@@ -94,47 +94,45 @@
         outline: none;
         padding: 7px;
         margin-top: 10px;
-        // Range Handle &::-webkit-slider-thumb
+        // Range Handle 
+            
+        &::-webkit-slider-thumb{
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #2c3e50;
+            cursor: pointer;
+            transition: background .15s ease-in-out;
+        
+            &:hover{
+                background: #1abc9c;
+            }
 
-    {
-        appearance: none;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background: #2c3e50;
-        cursor: pointer;
-        transition: background .15s ease-in-out;
-        &:hover
+        }
 
-    {
-        background: #1abc9c;
-    }
+        &:active::-webkit-slider-thumb {
+            background: #1abc9c;
+        }
 
-    }
+        &::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border: 0;
+            border-radius: 50%;
+            background: #2c3e50;
+            cursor: pointer;
+            transition: background .15s ease-in-out;
+            }
+            &:hover{
+                background: #1abc9c;
+            }
 
-    &:active::-webkit-slider-thumb {
-        background: #1abc9c;
-    }
+        
 
-    &::-moz-range-thumb {
-        width: 20px;
-        height: 20px;
-        border: 0;
-        border-radius: 50%;
-        background: #2c3e50;
-        cursor: pointer;
-        transition: background .15s ease-in-out;
-        &:hover
-
-    {
-        background: #1abc9c;
-    }
-
-    }
-
-    &:active::-moz-range-thumb {
-        background: #1abc9c;
-    }
+        &:active::-moz-range-thumb {
+            background: #1abc9c;
+        }
 
     }
 
@@ -152,19 +150,18 @@
         padding: 4px 6px;
         margin-left: 34px;
         bottom: 3px;
-        &:after
-
-    {
-        position: absolute;
-        top: 8px;
-        left: -7px;
-        width: 0;
-        height: 0;
-        border-top: 7px solid transparent;
-        border-right: 7px solid #2c3e50;
-        border-bottom: 7px solid transparent;
-        content: '';
-    }
+        
+        &:after{
+            position: absolute;
+            top: 8px;
+            left: -7px;
+            width: 0;
+            height: 0;
+            border-top: 7px solid transparent;
+            border-right: 7px solid #2c3e50;
+            border-bottom: 7px solid transparent;
+            content: '';
+        }
 
     }
 
