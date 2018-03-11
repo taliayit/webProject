@@ -14,7 +14,6 @@
 
     /* Assign the initially stored url back to the iframe src
     attribute when modal is displayed again */
-            console.log("ssss");
     $("#workoutModal").on('show.bs.modal', function () {
         $("#exVideo").attr('src', url);
         var ytApiKey = "AIzaSyCJr4RljbMoH8kBGt3srhzxNCI56vsUA78";
@@ -68,6 +67,5 @@
     //$(".restart").click(function () { $(".example.stopwatch").TimeCircles().restart(); });
     //$(".start").click();
 }
-
 
 

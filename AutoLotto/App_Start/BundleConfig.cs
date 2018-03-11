@@ -28,9 +28,7 @@ namespace AutoLotto
                       "~/Scripts/jquery.flexslider.js",
                       "~/Scripts/jquery-slidingCarousel.js",
                       "~/Scripts/jquery.gsap.min.js",
-                      "~/Scripts/TweenMax.min.js",
-                      "~/Scripts/jquery.barrager.js",
-                      "~/Scripts/jquery.barrager.min.js"
+                      "~/Scripts/TweenMax.min.js"
                       ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
@@ -41,7 +39,6 @@ namespace AutoLotto
                       "~/Content/TimeCircles.css",
                       "~/Content/jquery.flipster.min.css",
                       "~/Content/flexslider.css",
-                      "~/Content/barrager.css",
                       "~/Content/sliding-carousel.css"));
         }
     }
