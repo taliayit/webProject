@@ -69,9 +69,18 @@
 }
 
 
-function run_example() {
+function run_example(name, comment) {
+    var imagePath, text="";
 
-    var example_item = { 'img': '../Content/images/facebook-like.svg', 'info': 'Hello world!' };
+    if (comment) {
+        imagePath = '../Content/images/App-Messages-icon.png';
+        text = name + ": " + comment;
+    }
+    else {
+        imagePath = '../Content/images/facebook-like.svg';
+        text = name;
+    }
+    var example_item = { 'img': imagePath, 'info': text };
     $('#workoutModal').barrager(example_item);
     return false;
 

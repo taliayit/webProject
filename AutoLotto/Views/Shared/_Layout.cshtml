@@ -72,7 +72,8 @@
         let post_id;
         let like_counter = 0;
         let comment_counter = 0;
-        let token = 'EAACEdEose0cBADSkZBbxq0ZAF4jM1erSZAVxvuwWZBeRKDdIzyLjyp9kZCkQZAmn2507nJ1Qz87jYkUlzJNbwvFpuD8p3HWgRv2T4J0dEcXXEuv997wXtZAOdnl1aTiyYQ361BvohChoH1dRnTqnpZBgZB73trngv4C9ujGy4bIcRSZBsmKy7O1qwB6XMHSFDqAQAZD';
+        let token = 'EAACEdEose0cBAMskqaU70X0ZByS6ZCP5ZCuxdv7vL7r5mGOQ36ZBAVNDsgCBlDl4ZCFjyaNoqrYhZBr0kjO9bhBq6DNEWftz0vdQbI5b6rUpnGZAsBaw1AgwwXHXlmLsBRT9pPeME1BxEZAkNR5TvIYt2B20dT3FetCbFZClixsl1a0mXyDzYuBPhTFaooTnUYXJ6icDJRXEnewZDZD';
+        var interval;
         $(document).ready(function () {
             $(document).on('click', ".share", function (e) {
                 e.preventDefault();
@@ -98,51 +99,59 @@
                         //}
                     }
                 );
-
-
-
-            }).on('click', "#counter", function (e) {
-
-                console.log("/303261006522998_" + post_id + "/Likes");
-                FB.api(
-                    "/303261006522998_" + post_id + "/Likes",
-                    function (response) {
-                        if (response && !response.error) {
-                            console.log(response);
-                            alert(response.data.length + ' likes');
-                            if (response.data.length > like_counter) {
-                                let difference = response.data.length - like_counter;
-                                for (let i = 0; i < difference; i++) {
-                                    //TODO send likes and sound
+                interval = setInterval(function () {
+                    FB.api(
+                        "/303261006522998_" + post_id + "/Likes",
+                        function (response) {
+                            if (response && !response.error) {
+                                console.log(response);
+                                if (response.data.length > like_counter) {
+                                    let difference = response.data.length - like_counter;
+                                    like_counter = response.data.length;
+                                    for (let i = 0; i < difference; i++) {
+                                        let name = response.data[i].name;
+                                        //TODO send likes and sound
+                                        run_example(name);
+                                    }
                                 }
                             }
-                        }
-                        else {
-                            console.log('no no no...', response);
-                        }
-                    }, { access_token: token }
-                );
-                FB.api(
-                    "/303261006522998_" + post_id + "/comments",
-                    function (response) {
-                        if (response && !response.error) {
-                            console.log(response);
-                            if (response.data.length > comment_counter) {
-                                let difference = response.data.length - comment_counter;
-                                for (let i = 0; i < difference; i++) {
-                                    let comment = response.data[i].message;
-                                    //TODO send comment
+                            else {
+                                console.log('no no no...', response);
+                            }
+                        }, { access_token: token }
+                    );
+                    FB.api(
+                        "/303261006522998_" + post_id + "/comments",
+                        function (response) {
+                            if (response && !response.error) {
+                                console.log(response);
+                                if (response.data.length > comment_counter) {
+                                    let difference = response.data.length - comment_counter;
+                                    for (let i = comment_counter; i < comment_counter + difference; i++) {
+                                        let comment = response.data[i].message;
+                                        let name = response.data[i].from.name;
+                                        //TODO send comment
+                                        run_example(name, comment);
+                                    }
+                                    comment_counter = response.data.length;
                                 }
                             }
-                        }
-                        else {
-                            console.log('no no no...', response);
-                        }
-                    }, { access_token: token }
-                );
+                            else {
+                                console.log('no no no...', response);
+                            }
+                        }, { access_token: token }
+                    );
+                }, 2000);
             });
-
+            //.on('click', "#counter", function (e) {
+            //   console.log("/303261006522998_" + post_id + "/Likes");
+            $('.close').click(function () {
+                clearInterval(interval);
+                post_id = "";
+            });
         });
+
+
 
     </script>
 </body>
