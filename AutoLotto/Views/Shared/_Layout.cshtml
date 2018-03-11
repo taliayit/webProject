@@ -1,4 +1,11 @@
 ﻿<!DOCTYPE html>
+<style>
+    .navbar-brand {
+        font-weight: bold;
+    }
+</style>
+
+
 <html>
 <head>
     <meta charset="utf-8" />
@@ -26,7 +33,7 @@
     </script>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="font-family: 'Exo', sans-serif; opacity:0.8;">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -36,7 +43,7 @@
                 </button>
                 @Html.ActionLink("weTrain", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse" >
+            <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Customized", "Customized", "Home")</li>
@@ -62,6 +69,10 @@
     <script src="../Scripts/modalScript.js"></script>
     <script>
         var videoGlobalUrl = "";
+        let post_id;
+        let like_counter = 0;
+        let comment_counter = 0;
+        let token = 'EAACEdEose0cBADSkZBbxq0ZAF4jM1erSZAVxvuwWZBeRKDdIzyLjyp9kZCkQZAmn2507nJ1Qz87jYkUlzJNbwvFpuD8p3HWgRv2T4J0dEcXXEuv997wXtZAOdnl1aTiyYQ361BvohChoH1dRnTqnpZBgZB73trngv4C9ujGy4bIcRSZBsmKy7O1qwB6XMHSFDqAQAZD';
         $(document).ready(function () {
             $(document).on('click', ".share", function (e) {
                 e.preventDefault();
@@ -78,6 +89,8 @@
                     // callback
                     function (response) {
                         console.log('response', response);
+                        post_id = response.post_id;
+                        console.log("/303261006522998_" + post_id + "/Likes");
                         //if (response && !response.error_message) {
                         //    alert('Posting completed.');
                         //} else {
@@ -89,20 +102,48 @@
 
 
             }).on('click', "#counter", function (e) {
-                console.log('obj: ', FB.getAuthResponse());
+
+                console.log("/303261006522998_" + post_id + "/Likes");
                 FB.api(
-                    "/303261006522998_10216192882080684/Likes",
+                    "/303261006522998_" + post_id + "/Likes",
                     function (response) {
                         if (response && !response.error) {
                             console.log(response);
+                            alert(response.data.length + ' likes');
+                            if (response.data.length > like_counter) {
+                                let difference = response.data.length - like_counter;
+                                for (let i = 0; i < difference; i++) {
+                                    //TODO send likes and sound
+                                }
+                            }
                         }
-                        alert(response.data.length +' likes');
-                    }, { access_token: 'EAACEdEose0cBABvfGlpoHBAcLpfkNxNaZCio2xVMp36RtZBZA4rgXBwPJRIWUrXo85FM7V0ZBo20WSzglLVuqAZCTi7062v0xWCbArcXtmN8CgiuCnSR5buyMKfcFCVaWVPGQV09TYAvmT6rwmMYoOLTmbDDOyyziFuoHQWeMPDLlfk6n5mEELhacgzZCumA4ZD' }
+                        else {
+                            console.log('no no no...', response);
+                        }
+                    }, { access_token: token }
                 );
-                });
-            
+                FB.api(
+                    "/303261006522998_" + post_id + "/comments",
+                    function (response) {
+                        if (response && !response.error) {
+                            console.log(response);
+                            if (response.data.length > comment_counter) {
+                                let difference = response.data.length - comment_counter;
+                                for (let i = 0; i < difference; i++) {
+                                    let comment = response.data[i].message;
+                                    //TODO send comment
+                                }
+                            }
+                        }
+                        else {
+                            console.log('no no no...', response);
+                        }
+                    }, { access_token: token }
+                );
+            });
+
         });
-        
+
     </script>
 </body>
 </html>

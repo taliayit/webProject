@@ -69,3 +69,10 @@
 }
 
 
+function run_example() {
+
+    var example_item = { 'img': '../Content/images/facebook-like.svg', 'info': 'Hello world!' };
+    $('#workoutModal').barrager(example_item);
+    return false;
+
+}
