@@ -41,7 +41,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("weTrain", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("WeTrain", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -72,7 +72,7 @@
         let post_id;
         let like_counter = 0;
         let comment_counter = 0;
-        let token = 'EAACEdEose0cBAMskqaU70X0ZByS6ZCP5ZCuxdv7vL7r5mGOQ36ZBAVNDsgCBlDl4ZCFjyaNoqrYhZBr0kjO9bhBq6DNEWftz0vdQbI5b6rUpnGZAsBaw1AgwwXHXlmLsBRT9pPeME1BxEZAkNR5TvIYt2B20dT3FetCbFZClixsl1a0mXyDzYuBPhTFaooTnUYXJ6icDJRXEnewZDZD';
+        let token = 'EAACEdEose0cBAJZCEHOH36xWTtD6cbuhnjEtDPcNREvakeXXgzbkBcxBW2t2B7FsPYTFC1RZAaA3Roc0fkkSZCrorS7LciN5oSeDDu6XU0jUZA6b4noZB0iE8zXdfOI7w0wedKwxEqsNkDq1xP6Gmw3jSD70FqMSdYIjKuWADw3A0KuApFuO7xWNkZC9u8k9UZD';
         var interval;
         $(document).ready(function () {
             $(document).on('click', ".share", function (e) {
@@ -105,13 +105,18 @@
                         function (response) {
                             if (response && !response.error) {
                                 console.log(response);
+                                let difference;
                                 if (response.data.length > like_counter) {
-                                    let difference = response.data.length - like_counter;
+                                    difference = response.data.length - like_counter;
                                     like_counter = response.data.length;
                                     for (let i = 0; i < difference; i++) {
                                         let name = response.data[i].name;
                                         //TODO send likes and sound
                                         run_example(name);
+                                    }
+                                    if (difference > 0) {
+                                        console.log('should play');
+                                        (new Audio('../../content/cheers.m4a')).play();
                                     }
                                 }
                             }

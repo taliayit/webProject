@@ -21,7 +21,9 @@
         videoId = videoId[videoId.length - 1];
 
         $.get("https://www.googleapis.com/youtube/v3/videos?part=snippet&id=" + videoId + "&key=" + ytApiKey, function (data) {
-            $("#modal-title").text(data.items[0].snippet.title);
+            var title = data.items[0].snippet.title;
+            title = title.replace(/\[.*?\]\s?/g, '')
+            $("#modal-title").text(title);
         });
     });
     console.log(options);
