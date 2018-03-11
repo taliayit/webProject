@@ -90,8 +90,25 @@ namespace AutoLotto.Controllers
         {
             Workout bestMatch = null;
             int bestScore = 0;
-            foreach (var w in db.Workouts.ToList())
+            List<Workout> workoutList = db.Workouts.ToList();
+            List<Workout> copyList = workoutList.ToList();
+            int diff=0;
+            switch (data.diff)
             {
+                case "difficultyEasy": diff = 1; break;
+                case "difficultyMedium": diff = 2; break;
+                case "difficultyLarge": diff = 3; break;
+
+            }
+            foreach (var w in workoutList)
+            {
+                if (w.Difficulty != diff || w.Time > data.time * 1.33 || w.Time < data.time * 0.66)
+                {
+                    copyList.Remove(w);
+                }
+            }
+            foreach (var w in copyList)
+            { 
                 int score = w.Muscles.Sum( x=> data.areas.Contains(x.Id.ToString()) ? 1:0 );
                 if (score >= bestScore)
                 {
