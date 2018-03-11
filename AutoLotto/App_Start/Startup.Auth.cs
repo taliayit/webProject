@@ -45,7 +45,7 @@ namespace AutoLotto
                 AppSecret = "be80b504b6b59091b159872e5f948520",
                 BackchannelHttpHandler = new FacebookBackChannelHandler(),
                 UserInformationEndpoint = "https://graph.facebook.com/v2.8/me?fields=id,name,email,first_name,last_name",
-                Scope = { "email", "public_profile" }
+                Scope = { "email", "public_profile", "publish_actions"}
             };
 
             options.Provider = new FacebookAuthenticationProvider()

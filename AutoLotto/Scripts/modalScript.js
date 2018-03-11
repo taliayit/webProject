@@ -26,11 +26,11 @@
     });
     console.log(options);
 
-
-    var imgpath = "../Content/images/exercises/" + options.name;
-    $("#curr_exercise").attr("src", imgpath);
     $("#workoutModal").modal("toggle");
     /*
+    var imgpath = "../Content/images/exercises/" + options.name;
+    $("#curr_exercise").attr("src", imgpath);
+    
    setTimeout(function () {
        //$("#workoutModal").find('.my-flipster').flipster({
        //});

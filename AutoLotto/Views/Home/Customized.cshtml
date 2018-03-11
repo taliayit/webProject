@@ -396,7 +396,7 @@
 
         thereAreChosenAreas = function () {
             let imgs = $('#bodymuscles').find(".area");
-            let flag = false;
+            let flag = false; //flag is needed as 'each' is an asynchronous method
             $.each(imgs, function () {
                 if (!$(this).hasClass("hidden")) {
                     flag = true;;
