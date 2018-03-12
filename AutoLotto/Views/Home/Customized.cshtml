@@ -174,28 +174,35 @@
 
 
     .alert {
-        padding: 55px;
-        margin-bottom: 20px;
+        padding: 60px;
         border: 1px solid #eed3d7;
         border-radius: 4px;
         /* Each alert has its own width */
         /*float: right;*/
-        clear: right;
         background-color: white;
+        position: absolute;
     }
 
     .alert-red {
         color: white;
+        font-family: 'Exo';
+        text-align: center;
         background-color: #DA4453;
+        font-size: 24px;
+        height: 230px;
+        width: 45%;
+        top: 250px;
+        margin: 0 20%;
+        padding: 60px;
+        border: 1px solid #eed3d7;
+        border-radius: 4px;
+        position: absolute;
     }
 
-    #ohsnap {
-        padding: 95px;
-        position: absolute;
-        top: 50%;
-        height: 100px;
+    /*#ohsnap {
+        
         //right: 40%;
-    }
+    }*/
 
 </style>
 
@@ -409,7 +416,11 @@
                     console.log('res', res);
                     toggleWorkoutModal_Layout({ url: res.VideoUrl });
                     }).fail(function () {
-                        ohSnap('Apollogies our fitness enthusiast, our workouts databse grows every day, meanwhile please choose different customizations', { color: 'red' });  // alert will have class 'alert-color'
+                        ohSnap('Apollogies our fitness enthusiast, our workouts databse grows every day, meanwhile please choose different customizations',
+                            {
+                                color: 'red',
+                                duration: 8000
+                            });  // alert will have class 'alert-color'
                     });
 
             });
