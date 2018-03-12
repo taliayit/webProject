@@ -177,26 +177,21 @@
         padding: 60px;
         border: 1px solid #eed3d7;
         border-radius: 4px;
-        /* Each alert has its own width */
-        /*float: right;*/
+
         background-color: white;
         position: absolute;
     }
 
     .alert-red {
-        color: white;
+        color: black;
         font-family: 'Exo';
-        text-align: center;
-        background-color: #DA4453;
-        font-size: 24px;
-        height: 230px;
-        width: 45%;
-        top: 250px;
-        margin: 0 20%;
-        padding: 60px;
-        border: 1px solid #eed3d7;
-        border-radius: 4px;
-        position: absolute;
+        width: 100%;
+        padding-left: 45px;
+        background-image: url(../../Content/images/warning-icon-md.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        padding-right: 0px;
     }
 
     /*#ohsnap {
@@ -294,25 +289,25 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" style="margin-top:-28px;">
             <br />
             <br />
             <h1>training time</h1>
 
             <div class="col col-6">
                 <!--
-                <select id="time" class="form-control">
-                    <option value="10">10</option>
-                    <option value="15">15</option>
-                    <option value="30">30</option>
-                    <option value="40">40</option>
-                    <option value="50">50</option>
-                    <option value="60">60</option>
-                    <option value="70">70</option>
-                    <option value="80">80</option>
-                    <option value="90">90</option>
-                </select>
-                -->
+            <select id="time" class="form-control">
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="60">60</option>
+                <option value="70">70</option>
+                <option value="80">80</option>
+                <option value="90">90</option>
+            </select>
+            -->
 
                 <div class="range-slider">
                     <input class="range-slider__range" type="range" value="15" min="10" max="60">
@@ -324,10 +319,11 @@
         </div>
 
         <button id="send" class="btn btn-success" disabled>Complete customization to begin training</button>
-    </div>
-    <div id="ohsnap"></div>
+        <div class="row" style="margin-bottom:-30px;">
+            <div id="ohsnap"></div>
+        </div>
 
-</div>
+    </div>
 
 
 

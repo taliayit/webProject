@@ -1,8 +1,21 @@
 ﻿<!DOCTYPE html>
 <style>
+    .navbar navbar-inverse navbar-fixed-top {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
     .navbar-brand {
         font-weight: bold;
     }
+    /* Highlight text in  */
+    div.highlightTextIn a {
+        color: rgba(0, 0, 0, 0.4);
+    }
+
+        div.highlightTextIn a:before {
+            transform: scale(1.2);
+        } 
+
+
 </style>
 
 
@@ -33,7 +46,7 @@
     </script>
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" style="font-family: 'Exo', sans-serif; opacity:0.8;">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="font-family: 'Exo', sans-serif; opacity:0.8; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -43,7 +56,7 @@
                 </button>
                 @Html.ActionLink("WeTrain", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse container gray highlightTextIn">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("Customized", "Customized", "Home")</li>
@@ -54,11 +67,14 @@
         </div>
     </div>
     <div class="container body-content">
+        <div class="loader-body hidden">
+            <img src="@(" ../Content/images/gifs/" + (new Random()).Next(1,9) + ".gif")" style="width: 10%; position: relative; margin: 100px auto; display: block;" />
+        </div>
         @RenderBody()
         <!-- <hr />
-        <footer>
-             <p>&copy; @DateTime.Now.Year - Talia crazy Application</p>
-         </footer>-->
+    <footer>
+         <p>&copy; @DateTime.Now.Year - Talia crazy Application</p>
+     </footer>-->
     </div>
     @{
         Html.RenderPartial("ModalView");
@@ -72,81 +88,92 @@
         let post_id;
         let like_counter = 0;
         let comment_counter = 0;
-        let token = 'EAACEdEose0cBAMYpm2EnyZB4CH5ulnEoGoltbHF0DTT60e5hIym9bS9UYIcAC176AJPPEaqghQ7gDGZBut8Pvmm9pGgFGoZB3Mf0zqpw85KlGGGSSzjhxVVD6iFRPeh39rd0QO7W9XRTnFH0QJmR1OZAE77XZB25hRBfIWZCZBVxfq5AgFY2bNZApuXQc3FU3TIZD';
+        let token = 'EAACEdEose0cBAJukFbGKuErOo6G6biBHTOPfJuIbNIhf6BDlmxZBc8ddf1WoUycGzwPqv1BZCpPZCxaSWPqIBefHO0X3Al0Iw3t0ziQFqvfJ5PLVZBbVkBCOoXeBH2zly0S7xNtuqX1aZAOcLfX9v0MzM1bZBUZBzOtgeAjRLXvm7x9ltzehyz8BPr6n7V5XdgqsMGsuwLgTQZDZD';
         var interval;
         $(document).ready(function () {
             $(document).on('click', ".share", function (e) {
                 e.preventDefault();
-                FB.ui(
-                    {
-                        method: 'feed',
-                        name: 'testing',
-                        link: videoGlobalUrl,
-                        picture: 'http://img.youtube.com/vi/1CE6W5BubQo/0.jpg',
-                        //caption: '',
-                        description: '',
-                        source: "https://youtube.googleapis.com/v" + videoGlobalUrl.substring(videoGlobalUrl.lastIndexOf("/"))
-                    },
-                    // callback
-                    function (response) {
-                        console.log('response', response);
-                        post_id = response.post_id;
-                        console.log("/303261006522998_" + post_id + "/Likes");
-                        //if (response && !response.error_message) {
-                        //    alert('Posting completed.');
-                        //} else {
-                        //    alert('Error while posting.');
-                        //}
-                    }
-                );
-                interval = setInterval(function () {
-                    FB.api(
-                        "/303261006522998_" + post_id + "/Likes",
-                        function (response) {
-                            if (response && !response.error) {
-                                console.log(response);
-                                let difference;
-                                if (response.data.length > like_counter) {
-                                    difference = response.data.length - like_counter;
-                                    like_counter = response.data.length;
-                                    for (let i = 0; i < difference; i++) {
-                                        let name = response.data[i].name;
-                                        //TODO send likes and sound
-                                        run_example(name);
-                                    }
-                                    if (difference > 0) {
-                                        console.log('should play');
-                                        (new Audio('../../content/cheers.m4a')).play();
-                                    }
+
+                FB.login(function (response) {
+                    FB.api('/me', function (response) {
+                        //var p_accessToken = response.data[0].access_token;
+                      //  var p_name = response.data[0].name;
+                        console.log(response);
+                        FB.ui(
+                            {
+                                method: 'feed',
+                                name: 'testing',
+                                link: videoGlobalUrl,
+                                picture: 'http://img.youtube.com/vi/1CE6W5BubQo/0.jpg',
+                                caption: '',
+                                description: '',
+                                source: "https://youtube.googleapis.com/v" + videoGlobalUrl.substring(videoGlobalUrl.lastIndexOf("/"))
+                            },
+                            // callback
+                            function (response) {
+                                console.log('response', response);
+                                post_id = response.post_id;
+                                console.log("/303261006522998_" + post_id + "/Likes");
+                                if (response && !response.error_message) {
+                                    console.log('Posting completed.');
+                                } else {
+                                    console.log('Error while posting.');
                                 }
                             }
-                            else {
-                                console.log('no no no...', response);
-                            }
-                        }, { access_token: token }
-                    );
-                    FB.api(
-                        "/303261006522998_" + post_id + "/comments",
-                        function (response) {
-                            if (response && !response.error) {
-                                console.log(response);
-                                if (response.data.length > comment_counter) {
-                                    let difference = response.data.length - comment_counter;
-                                    for (let i = comment_counter; i < comment_counter + difference; i++) {
-                                        let comment = response.data[i].message;
-                                        let name = response.data[i].from.name;
-                                        //TODO send comment
-                                        run_example(name, comment);
+                        );
+                        interval = setInterval(function () {
+                            FB.api(
+                                "/303261006522998_" + post_id + "/Likes",
+                                function (response) {
+                                    if (response && !response.error) {
+                                        console.log(response);
+                                        let difference;
+                                        if (response.data.length > like_counter) {
+                                            difference = response.data.length - like_counter;
+                                            like_counter = response.data.length;
+                                            for (let i = 0; i < difference; i++) {
+                                                let name = response.data[i].name;
+                                                //TODO send likes and sound
+                                                run_example(name);
+                                            }
+                                            if (difference > 0) {
+                                                console.log('should play');
+                                                (new Audio('../../content/cheers.m4a')).play();
+                                            }
+                                        }
                                     }
-                                    comment_counter = response.data.length;
-                                }
-                            }
-                            else {
-                                console.log('no no no...', response);
-                            }
-                        }, { access_token: token }
-                    );
-                }, 2000);
+                                    else {
+                                        console.log('no no no...', response);
+                                    }
+                                }, { access_token: token }
+                            );
+                            FB.api(
+                                "/303261006522998_" + post_id + "/comments",
+                                function (response) {
+                                    if (response && !response.error) {
+                                        console.log(response);
+                                        if (response.data.length > comment_counter) {
+                                            let difference = response.data.length - comment_counter;
+                                            for (let i = comment_counter; i < comment_counter + difference; i++) {
+                                                let comment = response.data[i].message;
+                                                let name = response.data[i].from.name;
+                                                //TODO send comment
+                                                run_example(name, comment);
+                                            }
+                                            comment_counter = response.data.length;
+                                        }
+                                    }
+                                    else {
+                                        console.log('no no no...', response);
+                                    }
+                                }, { access_token: token }
+                            );
+                        }, 2000);
+                    });
+                }, { scope: "user_likes, user_posts" }); 
+
+
+             
             });
             //.on('click', "#counter", function (e) {
             //   console.log("/303261006522998_" + post_id + "/Likes");
