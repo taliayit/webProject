@@ -78,11 +78,15 @@ namespace AutoLotto.Controllers
                 
                 var bestMatch = BestMatchForUser(db, data);
 
-                return Ok(new {
-                    bestMatch.Id,
-                    bestMatch.VideoUrl,
-                    bestMatch.Time
-                });
+                if(bestMatch != null)
+                {
+                    return Ok(new {
+                        bestMatch.Id,
+                        bestMatch.VideoUrl,
+                        bestMatch.Time
+                    });
+                }
+                return NotFound();
             }
         }
 

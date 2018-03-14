@@ -40,9 +40,9 @@ body {
 
 .header {
     position: absolute;
-    top: calc(42% - 35px);
-    left: calc(70% - 255px);
     z-index: 2;
+    top: 40%;
+    left: 50%;
 }
 
         .header div {
@@ -57,15 +57,15 @@ body {
                 color: #5091d3 !important;
             }
 
-    .login {
-        position: absolute;
-        top: calc(50% - 75px);
-        left: calc(50% - 50px);
-        height: 150px;
-        width: 350px;
-        padding: 10px;
-        z-index: 2;
-    }
+.login {
+    position: absolute;
+    top: calc(40% - -10px);
+    left: calc(50% - 50px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    z-index: 2;
+}
 
         .login input[type=text] {
             width: 250px;
