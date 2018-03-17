@@ -1,21 +1,11 @@
 ﻿<!DOCTYPE html>
 <style>
-    .navbar navbar-inverse navbar-fixed-top {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .icon-img {
+        width: 20%;
+        margin-bottom: -25px;
+        margin-left: -7px;
+        opacity: 0.5;
     }
-    .navbar-brand {
-        font-weight: bold;
-    }
-    /* Highlight text in  */
-    div.highlightTextIn a {
-        color: rgba(0, 0, 0, 0.4);
-    }
-
-        div.highlightTextIn a:before {
-            transform: scale(1.2);
-        } 
-
-
 </style>
 
 
@@ -55,6 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <img class="icon-img" src="~/Content/Images/appicon (1).png"/>
                 @Html.ActionLink("WeTrain", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse container gray highlightTextIn">
@@ -89,7 +80,7 @@
         let post_id;
         let like_counter = 0;
         let comment_counter = 0;
-        let token = 'EAACEdEose0cBAEk1ZCH5wYCxm2NcqD0AbgJLjGHG4GqXf1y6QJ7Ix7kP7JgO9QXGho0QpGInroW1CuZCXo3DHL7hwaYCCYHBbbWTXGfq6Txs5g3yjYM1HQXBexPYuJkxyIA2BqWddCOAt468GHDSmEa82yI8ZAMcuSuL2y3UGDQg4B8CWO5BuqxyjwpJXP9ojZA4siMZC2QZDZD';
+        let token = 'EAACEdEose0cBADnp1fAia4ZCxRSdSmzGaH2ZCduSWQtHl2EedkTHG99PMG9dgu2hGaIDtiMUouNhZCgWiatsyiZAweO84vwZBOFl5whlQ220WMzgGIMrsGZBStTDAhQaDkLzs01ZA0l0COGFZBhGLLJdqWiCtzM2ZCB1jTteHY5rOHYFtB39q5VIUcw33nVAZBiLnI6CxL5ndzxQZDZD';
         var interval;
         $(document).ready(function () {
             $(document).on('click', ".share", function (e) {
